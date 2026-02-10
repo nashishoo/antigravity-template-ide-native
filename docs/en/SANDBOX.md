@@ -135,7 +135,7 @@ SANDBOX_MAX_OUTPUT_KB=100
 - Filesystem access beyond `/work` mount (read-only in most cases)
 - Network-based attacks (network disabled)
 - Resource exhaustion (CPU/memory caps)
-- Privilege escalation (non-root user by default)
+- Privilege escalation risk (further reduced when using a hardened non-root image such as `Dockerfile.sandbox`)
 
 **What It Does NOT Protect Against:**
 - Container escape (possible but rare; depends on kernel version and Docker version)

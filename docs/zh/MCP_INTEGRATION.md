@@ -24,7 +24,7 @@ MCP_ENABLED=true
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "enabled": true,
-      "env": { "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}" }
+      "env": { "GITHUB_PERSONAL_ACCESS_TOKEN": "your-github-token" }
     },
     {
       "name": "filesystem",
@@ -95,22 +95,25 @@ if __name__ == "__main__":
 
 ## 🔐 安全注意事项
 
-- 机密信息用环境变量：`"${VAR_NAME}"` 会自动从 `.env` 注入。  
+- 机密信息建议通过环境变量管理；当前实现会把 `mcp_servers.json` 中 `env` 的值原样传给 MCP 进程，不会自动解析 `\${VAR_NAME}` 占位符。  
 - 对不可信服务器可放进容器、限制文件权限、监控调用。  
 
 ## 🧪 测试 MCP 集成
 ```python
-from src.mcp_client import MCPClient
+from src.mcp_client import MCPClientManagerSync
 
-client = MCPClient()
-print(client.list_servers())
-print(client.list_tools())
+manager = MCPClientManagerSync(config_path="mcp_servers.json")
+manager.initialize()
+
+print(manager.get_status())
+print(list(manager.get_all_tools_as_callables().keys()))
+manager.shutdown()
 ```
 
 ## 🐛 故障排查
 
 - 无法连接：先手动运行服务器命令（如 `python src/tools/my_server.py`），确认 `npx` 等命令存在。  
-- 工具未出现：重启 Agent，检查日志关键字“MCP”。  
+- 工具未出现：重启 Agent，并确认对应 MCP 服务器已在 `mcp_servers.json` 里启用。  
 - 性能问题：禁用不需要的服务器；远程优先用 `http`；必要时缓存结果。  
 
 ## 📚 资源

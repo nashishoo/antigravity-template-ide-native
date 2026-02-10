@@ -98,18 +98,27 @@ Esto inicia un prompt interactivo donde puedes asignar tareas al swarm y ver a e
 ```python
 from src.swarm import SwarmOrchestrator
 
-# Inicializar swarm
 swarm = SwarmOrchestrator()
+result = swarm.execute("Construye una utilidad de compresión de archivos con manejo de errores")
+print(result)  # cadena final sintetizada
+```
 
-# Ejecutar una tarea
-result = swarm.execute(
-    "Construye una utilidad de compresión de archivos con manejo de errores"
-)
+## 🔧 Configuración
 
-# Acceder a resultados
-print(f"Estado: {result['status']}")
-print(f"Output: {result['output']}")
-print(f"Artefactos: {result['artifacts']}")
+La implementación actual usa el mapa de workers en `src/swarm.py`.
+No existe todavía un cargador externo `swarm_config.json`.
+
+## 📊 Logs y trazabilidad
+
+`SwarmOrchestrator.execute(..., verbose=True)` imprime progreso en stdout.
+También puedes inspeccionar los mensajes en memoria:
+
+```python
+from src.swarm import SwarmOrchestrator
+
+swarm = SwarmOrchestrator()
+swarm.execute("Construir y revisar una calculadora", verbose=False)
+print(swarm.get_message_log())
 ```
 
 ---

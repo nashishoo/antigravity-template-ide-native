@@ -102,51 +102,15 @@ This launches an interactive prompt where you can assign tasks to the swarm and 
 ```python
 from src.swarm import SwarmOrchestrator
 
-# Initialize swarm
 swarm = SwarmOrchestrator()
-
-# Execute a task
-result = swarm.execute(
-    "Build a file compression utility with error handling"
-)
-
-# Access results
-print(f"Status: {result['status']}")
-print(f"Output: {result['output']}")
-print(f"Artifacts: {result['artifacts']}")
+result = swarm.execute("Build a file compression utility with error handling")
+print(result)  # final synthesized string
 ```
 
 ## 🔧 Configuration
 
-### Swarm Settings
-
-Edit the swarm configuration in `.antigravity/swarm_config.json`:
-
-```json
-{
-  "router": {
-    "model": "gemini-2.0-flash",
-    "temperature": 0.7,
-    "max_iterations": 5
-  },
-  "workers": {
-    "coder": {
-      "enabled": true,
-      "timeout": 300
-    },
-    "reviewer": {
-      "enabled": true,
-      "timeout": 120
-    },
-    "researcher": {
-      "enabled": true,
-      "timeout": 180
-    }
-  },
-  "parallel_execution": false,
-  "log_level": "INFO"
-}
-```
+Current implementation uses a built-in worker map in `src/swarm.py`.
+There is no external `swarm_config.json` loader yet.
 
 ### Custom Agents
 
@@ -184,45 +148,31 @@ agents = {
 
 ## 📊 Monitoring & Logging
 
-### View Swarm Logs
+### Runtime Output
 
-```bash
-# Real-time log stream
-tail -f artifacts/logs/swarm.log
+`SwarmOrchestrator.execute(..., verbose=True)` prints delegation and progress logs
+to stdout. You can also inspect in-memory message history:
 
-# Filter by agent
-grep "Coder" artifacts/logs/swarm.log
+```python
+from src.swarm import SwarmOrchestrator
 
-# Search by task
-grep "calculator" artifacts/logs/swarm.log
+swarm = SwarmOrchestrator()
+swarm.execute("Build and review a calculator", verbose=False)
+messages = swarm.get_message_log()
+print(messages)
 ```
 
-### Task Artifacts
-
-After each swarm execution, outputs are saved to `artifacts/`:
-
-```
-artifacts/
-├── plan_task_id.md        # Original task plan
-├── logs/
-│   └── swarm_task_id.log  # Detailed execution log
-├── implementations/
-│   ├── calculator.py      # Generated code
-│   └── test_calculator.py # Generated tests
-└── reviews/
-    └── calculator_review.md # Review report
-```
+The current implementation does not automatically write swarm logs/artifacts to disk.
 
 ## ⚡ Performance Tips
 
 ### Optimize Execution
 - 🎯 Keep task descriptions clear and focused
-- 🔄 Enable parallel execution for independent subtasks
 - 📦 Pre-load context for better agent understanding
-- ⏱️ Set appropriate timeouts for long-running agents
+- ⏱️ Keep subtasks concrete so router delegation is predictable
 
 ### Resource Management
-- 🚫 Disable unused agents in configuration
+- 🚫 Disable or remove unused workers directly in `src/swarm.py`
 - 💾 Implement result caching
 - 🧹 Clean old artifacts periodically
 
@@ -230,17 +180,14 @@ artifacts/
 
 ### Agents won't connect
 ```bash
-# Check if all agents are initialized
-python -c "from src.swarm import SwarmOrchestrator; s = SwarmOrchestrator(); print(s.available_agents())"
+# Check if swarm can initialize
+python -c "from src.swarm import SwarmOrchestrator; SwarmOrchestrator(); print('ok')"
 ```
 
 ### Task execution hangs
 ```bash
-# Check agent status
-grep "ERROR" artifacts/logs/swarm.log
-
-# Increase timeout in configuration
-# Edit .antigravity/swarm_config.json and restart
+# Run with verbose=False to reduce console noise and inspect message bus
+python -c "from src.swarm import SwarmOrchestrator; s=SwarmOrchestrator(); s.execute('test', verbose=False); print(s.get_message_log())"
 ```
 
 ### Low quality results
@@ -282,7 +229,7 @@ result = swarm.execute(
 ## 📞 Advanced Topics
 
 - **Custom Agent Development**: Extend `BaseAgent` for specialized domains
-- **Parallel Execution**: Configure agents for concurrent subtask handling
+- **Custom Orchestration**: Extend `SwarmOrchestrator` for different routing/execution policies
 - **Inter-Agent Communication**: Use message passing for complex coordination
 - **Result Verification**: Implement custom verification strategies
 

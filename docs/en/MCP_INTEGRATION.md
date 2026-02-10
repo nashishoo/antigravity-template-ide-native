@@ -28,7 +28,7 @@ MCP_ENABLED=true
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "enabled": true,
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your-github-token"
       }
     },
     {
@@ -151,13 +151,15 @@ Always use environment variables for sensitive data:
 ```json
 {
   "env": {
-    "GITHUB_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}",
-    "DB_PASSWORD": "${DB_PASSWORD}"
+    "GITHUB_TOKEN": "your-token-here",
+    "DB_PASSWORD": "your-db-password"
   }
 }
 ```
 
-The `${VAR_NAME}` syntax automatically injects from your `.env` file.
+Current implementation passes `env` values as-is to MCP server processes.
+If you want to source from shell/.env variables, resolve them before writing
+`mcp_servers.json` (or generate this file from a template in your setup flow).
 
 ### Sandboxing
 For untrusted servers, consider:
@@ -168,17 +170,17 @@ For untrusted servers, consider:
 ## 🧪 Testing MCP Integration
 
 ```python
-# Test MCP connection
-from src.mcp_client import MCPClient
+from src.mcp_client import MCPClientManagerSync
 
-client = MCPClient()
-servers = client.list_servers()
-print(f"Connected to {len(servers)} servers")
+manager = MCPClientManagerSync(config_path="mcp_servers.json")
+manager.initialize()
 
-# List available tools
-tools = client.list_tools()
-for tool in tools:
-    print(f"- {tool['name']}: {tool['description']}")
+status = manager.get_status()
+print(status)
+
+tools = manager.get_all_tools_as_callables()
+print(f"Discovered tools: {list(tools.keys())}")
+manager.shutdown()
 ```
 
 ## 🐛 Troubleshooting
@@ -197,8 +199,8 @@ which npx
 # Restart agent
 python src/agent.py
 
-# Check logs
-grep "MCP" agent.log
+# Verify server command exists
+which npx
 ```
 
 ### Performance issues

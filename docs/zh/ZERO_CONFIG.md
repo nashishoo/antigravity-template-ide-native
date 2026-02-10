@@ -11,7 +11,7 @@
 ### 工作方式
 1) 🔍 扫描 `src/tools/` 下所有 `.py`  
 2) 📋 索引顶层函数并读取 docstring  
-3) ✅ 校验签名，注册为可调用工具  
+3) ✅ 注册公开函数为可调用工具  
 
 ### 示例
 ```python
@@ -34,20 +34,18 @@ def analyze_sentiment(text: str) -> dict:
 把知识文件放到 `.context/` 会被自动拼接进系统提示，Agent 对话天然“带背景”。
 
 ### 工作方式
-1) 扫描 `.context/`（支持 `.md/.txt/.json`）  
-2) 读取内容进入记忆缓冲  
-3) 在每次对话前注入系统提示前缀  
-4) 重启 Agent 自动热加载新增文件  
+1) 扫描 `.context/` 顶层目录（当前只读取 `.md`）  
+2) 读取内容并注入系统提示  
+3) 每次运行 Agent 时重新加载上下文  
 
 ### 组织建议
 ```
 .context/
 ├── README.md                  # 索引
-├── company_standards/         # 规范
-│   ├── coding_standards.md
-│   └── security_policies.md
-├── project_info/              # 架构/数据库
-└── api_docs/                  # API 文档
+├── coding_standards.md
+├── security_policies.md
+├── architecture.md
+└── database_schema.md
 ```
 保持单文件 <100 行，命名自解释，旧内容及时归档。
 
@@ -60,7 +58,7 @@ def analyze_sentiment(text: str) -> dict:
 
 ## 🎓 最佳实践
 - 工具：写清 docstring 与类型；避免通配导入；函数单一职责。  
-- 上下文：精简、分层、可维护；内容稳定的放上下文，动态操作放工具。  
+- 上下文：精简、可维护，关键文件优先放在 `.context/` 顶层；内容稳定的放上下文，动态操作放工具。  
 - 性能：控制上下文总量（推荐 <50KB），定期清理旧文件。  
 
 ## 🐛 排查指引

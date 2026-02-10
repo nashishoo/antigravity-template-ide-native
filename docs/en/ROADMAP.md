@@ -119,13 +119,12 @@ The final vision is a production-grade system where enterprises can:
 
 **Example Usage:**
 ```python
-from src.sandbox import SandboxExecutor
+from src.sandbox.factory import get_sandbox
 
-executor = SandboxExecutor()
-result = executor.execute(
-    code="import numpy; print(numpy.version.version)",
+sandbox = get_sandbox()
+result = sandbox.execute(
+    code="import numpy; print(numpy.__version__)",
     timeout=30,
-    memory_limit="256MB"
 )
 ```
 

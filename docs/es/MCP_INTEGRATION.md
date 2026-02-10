@@ -28,7 +28,7 @@ MCP_ENABLED=true
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "enabled": true,
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "tu-token-de-github"
       }
     }
   ]
@@ -120,6 +120,24 @@ Regístralo en `mcp_servers.json`:
   "args": ["ruta/a/mi_servidor.py"],
   "enabled": true
 }
+```
+
+## 🔐 Consideraciones de Seguridad
+
+- Usa variables de entorno para credenciales sensibles.
+- La implementación actual pasa los valores de `env` tal como están en `mcp_servers.json`.
+  No hay interpolación automática de placeholders tipo `${VAR}`.
+
+## 🧪 Prueba Rápida de Integración
+
+```python
+from src.mcp_client import MCPClientManagerSync
+
+manager = MCPClientManagerSync(config_path="mcp_servers.json")
+manager.initialize()
+print(manager.get_status())
+print(list(manager.get_all_tools_as_callables().keys()))
+manager.shutdown()
 ```
 
 ---

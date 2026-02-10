@@ -20,21 +20,17 @@ pip install -r requirements.txt
 python src/agent.py
 ```
 
-The agent will start and wait for your commands. It automatically:
+The agent runs a single task per invocation. It automatically:
 - 🧠 Loads memory from `agent_memory.json`
 - 🛠️ Discovers tools in `src/tools/`
 - 📚 Ingests context from `.context/`
 
 ### 3. Example Usage
 ```bash
-# In your terminal or IDE:
-> "Build a Python function to calculate Fibonacci numbers"
+python src/agent.py "Build a Python function to calculate Fibonacci numbers"
 ```
 
-The agent will:
-1. 📄 Create a plan in `artifacts/plan_[id].md`
-2. 💻 Write code in appropriate directories
-3. ✅ Provide evidence logs
+The agent will execute that task and print the result to stdout.
 
 ## 🐳 Docker Deployment
 
@@ -63,8 +59,8 @@ Create a `.env` file:
 
 ```bash
 # LLM Configuration
-GEMINI_API_KEY=your-api-key-here
-GEMINI_MODEL=gemini-2.0-flash
+GOOGLE_API_KEY=your-api-key-here
+GEMINI_MODEL_NAME=gemini-2.0-flash-exp
 
 # MCP Configuration
 MCP_ENABLED=true
@@ -73,6 +69,9 @@ MCP_ENABLED=true
 LOG_LEVEL=INFO
 ARTIFACTS_DIR=artifacts
 ```
+
+`ARTIFACTS_DIR` supports absolute or relative paths. Relative values are
+resolved from the repository root so outputs do not drift into IDE default paths.
 
 ### Memory Management
 The agent automatically manages memory via `agent_memory.json`. To reset:
@@ -116,10 +115,10 @@ pytest --cov=src tests/
 ### Agent doesn't start
 ```bash
 # Check if dependencies are installed
-pip list | grep -i google-generativeai
+pip list | grep -Ei "google-genai|google-generativeai"
 
-# Verify GEMINI_API_KEY is set
-echo $GEMINI_API_KEY
+# Verify GOOGLE_API_KEY is set
+echo $GOOGLE_API_KEY
 ```
 
 ### Tools not loading

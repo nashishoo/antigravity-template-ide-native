@@ -126,7 +126,7 @@ This is **not** another LangChain wrapper. It's a minimal, transparent workspace
 | 🤖 **Swarm Agents** | Multi-agent orchestration with Router-Worker pattern |
 | ⚡ **Gemini Native** | Optimized for Gemini 2.0 Flash |
 | 🌐 **LLM Agnostic** | Use OpenAI, Azure, Ollama, or any OpenAI-compatible API |
-| 📂 **Artifact-First** | Every task produces plans, logs, and evidence |
+| 📂 **Artifact-First** | Convention-first workflow for storing plans, logs, and evidence in `artifacts/` |
 | 🔒 **Sandbox Execution** | Configurable code execution environments (local by default) |
 
 ## 📚 Documentation
@@ -230,7 +230,7 @@ result = swarm.execute("Build and review a calculator")
 The swarm automatically:
 - 📤 Routes to Coder, Reviewer, Researcher agents
 - 🧩 Synthesizes results
-- 📂 Saves artifacts
+- 📂 Exposes message logs via `get_message_log()` for inspection
 
 ## ✅ What's Complete
 

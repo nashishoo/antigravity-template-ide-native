@@ -126,7 +126,7 @@ python src/agent.py
 | 🤖 **Swarm Agent** | Router-Worker 模式的多 Agent 编排 |
 | ⚡ **Gemini 原生** | 为 Gemini 2.0 Flash 做了优化 |
 | 🌐 **LLM 无关** | 支持 OpenAI、Azure、Ollama 或任何兼容 OpenAI 的 API |
-| 📂 **Artifact-First** | 每个任务都会生成计划、日志和证据 |
+| 📂 **Artifact-First** | 约定优先的工作流：将计划、日志和证据统一存放在 `artifacts/` |
 
 ## 📚 文档
 
@@ -201,7 +201,7 @@ result = swarm.execute("构建并审查一个计算器")
 Swarm 会自动：
 - 📤 路由到 Coder、Reviewer、Researcher Agent
 - 🧩 综合结果
-- 📂 保存 Artifact
+- 📂 通过 `get_message_log()` 提供可检查的消息日志
 
 ## ✅ 已完成内容
 

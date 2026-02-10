@@ -25,28 +25,29 @@ from src.swarm import SwarmOrchestrator
 
 swarm = SwarmOrchestrator()
 result = swarm.execute("构建带错误处理的文件压缩工具")
-print(result)
+print(result)  # 返回最终合成后的字符串结果
 ```
 
 ## 🔧 配置
 
-- `.antigravity/swarm_config.json` 可设置模型、温度、最大迭代、各 Agent 是否启用/超时、是否并行等。  
+- 当前实现使用 `src/swarm.py` 内置的 worker 映射，尚未实现 `.antigravity/swarm_config.json` 配置加载。  
 - 自定义 Agent：继承 `BaseAgent`（参考 `src/agents`），在 `swarm.py` 注册即可。  
 
 ## 📊 日志与产物
 
-- 日志：`artifacts/logs/`（可用 `tail -f`、`grep` 查看）。  
-- 产物：`artifacts/` 下保存计划、实现、测试、评审报告等。  
+- 执行日志默认输出到终端（`execute(..., verbose=True)`）。  
+- 可通过 `swarm.get_message_log()` 读取内存中的消息总线记录。  
+- 当前实现不会自动把 swarm 日志/产物写入磁盘。  
 
 ## ⚡ 性能提示
 
-- 任务描述要清晰；独立子任务可开启并行；预加载上下文；为长任务设定合理超时。  
+- 任务描述要清晰；预加载上下文；将子任务写具体以提高 Router 分派稳定性。  
 - 禁用不需要的 Agent，定期清理旧 artifacts，必要时做结果缓存。  
 
 ## 🐛 故障排查
 
-- Agent 未初始化：在 Python 中实例化 `SwarmOrchestrator` 看日志。  
-- 执行卡住：查看 `artifacts/logs/swarm.log` 错误，适当提高超时或简化任务。  
+- Agent 未初始化：先在 Python 中实例化 `SwarmOrchestrator` 查看初始化输出。  
+- 执行卡住：先用 `verbose=False` 运行，再用 `get_message_log()` 检查路由与执行链路。  
 - 结果质量低：提供更多上下文，描述更具体，确保 Reviewer 启用。  
 
 ## 📚 示例

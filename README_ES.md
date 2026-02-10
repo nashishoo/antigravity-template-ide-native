@@ -126,7 +126,7 @@ Esto **no** es otro wrapper de LangChain. Es un workspace mínimo y transparente
 | 🤖 **Agentes Swarm** | Orquestación multiagente con patrón Router-Worker |
 | ⚡ **Nativo de Gemini** | Optimizado para Gemini 2.0 Flash |
 | 🌐 **Independiente del LLM** | Usa OpenAI, Azure, Ollama o cualquier API compatible con OpenAI |
-| 📂 **Artifact-First** | Cada tarea produce planes, logs y evidencia |
+| 📂 **Artifact-First** | Flujo de trabajo por convención para guardar planes, logs y evidencia en `artifacts/` |
 
 ## 📚 Documentación
 
@@ -201,7 +201,7 @@ result = swarm.execute("Construir y revisar una calculadora")
 El swarm automáticamente:
 - 📤 Enruta a los agentes Coder, Reviewer y Researcher
 - 🧩 Sintetiza resultados
-- 📂 Guarda artefactos
+- 📂 Expone logs de mensajes vía `get_message_log()` para inspección
 
 ## ✅ Qué está completo
 

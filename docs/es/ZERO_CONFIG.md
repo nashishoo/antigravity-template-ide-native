@@ -70,21 +70,20 @@ python src/agent.py
 3. **Inyección Automática**:
 Cada prompt al agente ahora incluye automáticamente todos los archivos `.context/`.
 
+**Comportamiento actual del loader:**
+- Lee solo archivos Markdown de nivel superior: `.context/*.md`
+- Si cambias `src/tools/`, reinicia el agente para recargar herramientas
+
 ### Organizar Contexto
 
-**Estructura de Ejemplo**:
+**Estructura recomendada (nivel superior)**:
 ```
 .context/
-├── README.md                      # Índice de todo el contexto
-├── estandares_empresa/
-│   ├── estandares_codificacion.md # Guía de estilo de código
-│   └── politicas_seguridad.md     # Requisitos de seguridad
-├── informacion_proyecto/
-│   ├── arquitectura.md            # Diseño del sistema
-│   └── esquema_base_datos.md      # Estructura de BD
-└── docs_api/
-    ├── api_publica.md             # Endpoints públicos
-    └── api_interna.md             # Endpoints internos
+├── README.md                      # Índice
+├── estandares_codificacion.md     # Guía de estilo
+├── politicas_seguridad.md         # Requisitos de seguridad
+├── arquitectura.md                # Diseño del sistema
+└── esquema_base_datos.md          # Estructura de BD
 ```
 
 ## 🔗 Cómo Trabajan Juntas Herramientas + Contexto

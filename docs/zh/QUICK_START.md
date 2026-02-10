@@ -20,21 +20,17 @@ pip install -r requirements.txt
 python src/agent.py
 ```
 
-启动后会等待你的指令，并自动：
+该命令每次执行一个任务，并会自动：
 - 🧠 从 `agent_memory.json` 加载记忆
 - 🛠️ 发现 `src/tools/` 里的工具
 - 📚 注入 `.context/` 的知识
 
 ### 3. 使用示例
 ```bash
-# 终端或 IDE 中直接输入
-> "帮我写一个计算斐波那契数列的 Python 函数"
+python src/agent.py "帮我写一个计算斐波那契数列的 Python 函数"
 ```
 
-Agent 会：
-1. 📄 在 `artifacts/plan_[id].md` 生成计划  
-2. 💻 在合适目录写代码  
-3. ✅ 输出日志/证据
+Agent 会执行该任务并将结果输出到终端。
 
 ## 🐳 Docker 部署
 
@@ -57,8 +53,8 @@ docker-compose up --build
 
 ```bash
 # LLM 配置
-GEMINI_API_KEY=your-api-key-here
-GEMINI_MODEL=gemini-2.0-flash
+GOOGLE_API_KEY=your-api-key-here
+GEMINI_MODEL_NAME=gemini-2.0-flash-exp
 
 # MCP 配置
 MCP_ENABLED=true
@@ -67,6 +63,9 @@ MCP_ENABLED=true
 LOG_LEVEL=INFO
 ARTIFACTS_DIR=artifacts
 ```
+
+`ARTIFACTS_DIR` 支持绝对路径和相对路径。相对路径会基于仓库根目录解析，
+避免输出落到 IDE 的默认目录。
 
 ### 记忆管理
 使用 `agent_memory.json` 自动管理。重置方法：
@@ -110,10 +109,10 @@ pytest --cov=src tests/
 ### Agent 无法启动
 ```bash
 # 检查依赖
-pip list | grep -i google-generativeai
+pip list | grep -Ei "google-genai|google-generativeai"
 
-# 检查 GEMINI_API_KEY
-echo $GEMINI_API_KEY
+# 检查 GOOGLE_API_KEY
+echo $GOOGLE_API_KEY
 ```
 
 ### 工具未加载

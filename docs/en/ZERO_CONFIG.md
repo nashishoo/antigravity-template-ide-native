@@ -46,8 +46,7 @@ The discovery process:
 1. 🔍 Scans `src/tools/` for all `.py` files
 2. 📋 Indexes all top-level functions
 3. 📚 Extracts docstrings for help text
-4. ✅ Validates function signatures
-5. 🔗 Registers with the agent
+4. 🔗 Registers public module-level functions with the agent
 
 ### Tool Guidelines
 
@@ -144,26 +143,20 @@ Every prompt to the agent now includes all `.context/` files automatically.
 
 The loading process:
 1. 🔍 Scans `.context/` directory
-2. 📄 Reads all markdown (`.md`), text (`.txt`), and JSON files
-3. 📦 Loads into memory buffer
-4. 🧠 Injects into system prompt prefix
-5. 🔄 Re-scans on each agent run (hot reload!)
+2. 📄 Reads top-level markdown files (`.md`) only
+3. 🧠 Injects content into the prompt context
+4. 🔄 Reloads context when the agent runs
 
 ### Organizing Context
 
-**Example Structure:**
+**Recommended structure (current loader reads top-level `.md` only):**
 ```
 .context/
-├── README.md                 # Index of all context
-├── company_standards/
-│   ├── coding_standards.md   # Code style guide
-│   └── security_policies.md  # Security requirements
-├── project_info/
-│   ├── architecture.md       # System design
-│   └── database_schema.md    # DB structure
-└── api_docs/
-    ├── public_api.md         # Public endpoints
-    └── internal_api.md       # Internal endpoints
+├── README.md                 # Index
+├── coding_standards.md       # Code style guide
+├── security_policies.md      # Security requirements
+├── architecture.md           # System design
+└── database_schema.md        # DB structure
 ```
 
 ### Context Index File
@@ -177,17 +170,13 @@ This directory contains all context automatically injected into the agent.
 
 ## 📋 Organization
 
-### Company Standards
-- [Coding Standards](company_standards/coding_standards.md)
-- [Security Policies](company_standards/security_policies.md)
+### Standards
+- [Coding Standards](coding_standards.md)
+- [Security Policies](security_policies.md)
 
 ### Project Information
-- [Architecture](project_info/architecture.md)
-- [Database Schema](project_info/database_schema.md)
-
-### API Documentation
-- [Public API](api_docs/public_api.md)
-- [Internal API](api_docs/internal_api.md)
+- [Architecture](architecture.md)
+- [Database Schema](database_schema.md)
 ```
 
 ## 🔗 How Tools + Context Work Together
@@ -232,7 +221,7 @@ The agent:
 
 ### For Context Loading
 - 📚 Keep context files focused (max 100 lines)
-- 🏗️ Use hierarchical structure
+- 🏗️ Keep important context files at `.context/` top-level
 - 🔄 Update context when standards change
 - 🔍 Make file names self-documenting
 
@@ -244,12 +233,8 @@ The agent:
 
 ## 🔄 Hot Reload
 
-Context and tools automatically reload when you:
-1. 🔧 Add new files to `src/tools/` or `.context/`
-2. 📝 Edit tool docstrings or function signatures
-3. 🔄 Restart the agent
-
-No configuration, no registration needed!
+Tools are discovered at agent startup, so after changing `src/tools/` you should restart the agent.
+Context files are loaded from `.context/*.md` on agent run.
 
 ## 🐛 Troubleshooting
 
