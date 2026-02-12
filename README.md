@@ -34,20 +34,15 @@ The Architect will analyze your mission, **scan available skills**, and return c
 
 Your agents will work in parallel with built-in tooling.
 
-## Native Features
-
-### Persistent Memory (`planning-with-files`)
-The template ships with a native skill for long-term memory.
-* Your agents automatically create `task_plan.md` and `findings.md`.
-* This makes complex decisions persistent between sessions.
-
-### Skill Scouting
-The Architect can review installed skills in `src/skills/` and suggest them in worker prompts.
+### Architect Preflight
+Before delegating any work, the **Architect** must run the preflight workflow to verify available skills and tools:
+*   **Workflow**: `.agent/workflows/preflight.md`
+*   **Purpose**: Inventory local skills, check `skills.sh` CLI, and validate tool availability.
 
 ## Project Structure
 
 ```
-.agent/workflows/   # Role and workflow definitions (Architect, Swarm)
+.agent/workflows/   # Role and workflow definitions (Architect, Swarm, Preflight)
 .context/           # Automated rules (Coding Style)
 src/tools/          # Custom tools (Python, optional)
 src/skills/         # Installed skills (planning-with-files, etc.)
@@ -58,6 +53,7 @@ artifacts/          # Generated plans and documentation
 
 ## Tools
 Any Python script you add to `src/tools/` will be auto-discovered by agents. Use this folder for project-specific utilities.
+*   **`src/tools/skills_catalog.py`**: A utility to search for skills on skills.sh and list local skills.
 
 ## OpenSpec
 For complex changes, use the OpenSpec system in the `openspec/` folder.

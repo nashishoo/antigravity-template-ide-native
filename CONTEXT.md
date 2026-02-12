@@ -8,6 +8,12 @@
 1.  **Architect (You + Main Window):** Defines strategy, **scouts for skills**, and generates prompts for specialized workers.
 2.  **Workers (New Windows):** Execute specific tasks in parallel using the provided prompts and installed skills.
 
+**Architect Preflight Requirement**
+Before delegating any work, the Architect MUST run the preflight workflow at `.agent/workflows/preflight.md` to:
+- Inventory local skills under `src/skills/`.
+- Check skills.sh / `npx skills` availability.
+- Provide evidence of any skills suggested to workers.
+
 ## 2. Cognitive Architecture (`.context/`)
 *   **`coding_style.md`**: Strict coding standards that all agents automatically follow.
 *   **`system_prompt.md`**: Core persona definition.
@@ -15,7 +21,7 @@
 
 ## 3. Key Directories
 *   **`.agent/workflows/`**: Defines the role of the Architect and the Swarm protocol.
-*   **`src/tools/`**: Place any Python utility script here, and the agents will automatically be able to use it.
+*   **`src/tools/`**: Place any Python utility script here (e.g., `skills_catalog.py`), and the agents will automatically be able to use it.
 *   **`openspec/`**: Use this for proposing and validating complex changes.
 *   **`artifacts/`**: All plans, logs, and evidence must be saved here.
 

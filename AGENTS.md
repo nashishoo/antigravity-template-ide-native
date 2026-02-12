@@ -24,8 +24,9 @@ It follows the **Parallel Architect Workflow**.
 
 ## Core Rules (`.antigravity/rules.md`)
 1.  **Read Context First**: Before coding, read `mission.md` and `CONTEXT.md`.
-2.  **Use Skills**: Use `src/skills/planning-with-files` for complex tasks.
-3.  **Artifact-First**: Create plans in `artifacts/` before executing.
+2.  **Preflight Check (Architect Only)**: Use `.agent/workflows/preflight.md` to verify skills before delegation.
+3.  **Use Skills**: Use `src/skills/planning-with-files` for complex tasks.
+4.  **Artifact-First**: Create plans in `artifacts/` before executing.
 
 ## Workflow: Parallel Architect
 - **Role**: You are likely a "Worker" (Coder, Reviewer, Researcher) delegated by the Head Architect.

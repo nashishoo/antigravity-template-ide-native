@@ -10,6 +10,7 @@ This workspace is optimized for **Agentic Development**. It contains specific st
 2.  **Adhere to Coding Standards**: Always check `.context/coding_style.md` for specific implementation details.
 3.  **Mission Awareness**: The task goal is defined in `mission.md` (an example mission by default). Align all your actions with this mission or update it to match the project goal.
 4.  **Tool-Centric Architecture**: Agents interact with the world through tools. Prioritize creating robust, well-documented tools in the `tools/` directory.
+5.  **Architect Preflight**: When acting as the Architect (main window), you MUST run the preflight workflow at `.agent/workflows/preflight.md` before delegating work or claiming the existence of skills/tools.
 
 ## Interaction Style
 - **Proactive**: Suggest improvements and next steps.

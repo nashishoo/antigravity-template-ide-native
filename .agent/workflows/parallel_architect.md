@@ -6,6 +6,7 @@ description: Head Architect -> Specialized Prompts for Parallel Execution
 This workflow optimizes for massive parallelism by turning the main window into the "Architect's Desk".
 
 ## 1. ARCHITECT PHASE (This Window)
+-   **Preflight**: Run `.agent/workflows/preflight.md` to inventory skills and verify tools before delegation.
 -   **Analyze**: Understand the high-level goal.
 -   **Skill Scout**: review `src/skills/` and installed skills to find tools that could solve the problem faster.
 -   **Structure**: Break it down into independent components.
