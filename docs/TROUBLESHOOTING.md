@@ -31,7 +31,15 @@ This file becomes your project's GPS.
 npx skills search [query]
 npx -y skills add [skill-name]
 ```
+```
 Then tell the agent: "I installed [skill]. Check `src/skills/`."
+
+### 5. "I cannot find skills or `skills_catalog.py` fails."
+**Cause:** Missing dependencies or path issues.
+**Fix:**
+- Ensure you have `python` installed and in your PATH.
+- Verify `src/tools/skills_catalog.py` exists.
+- Try running `python src/tools/skills_catalog.py` manually to see errors.
 
 ## Common Errors
 

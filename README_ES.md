@@ -41,13 +41,15 @@ El template incluye una skill nativa para gestionar memoria a largo plazo.
 * Tus agentes crean automaticamente `task_plan.md` y `findings.md`.
 * Esto permite recordar decisiones complejas entre sesiones.
 
-### Skill Scouting
-El Arquitecto puede revisar las skills instaladas en `src/skills/` y sugerirlas en los prompts de trabajo.
+### Preflight del Arquitecto
+Antes de delegar cualquier trabajo, el **Arquitecto** debe ejecutar el flujo de trabajo de preflight para verificar las skills y herramientas disponibles:
+*   **Workflow**: `.agent/workflows/preflight.md`
+*   **Propósito**: Inventariar skills locales, verificar la CLI de `skills.sh`, y validar la disponibilidad de herramientas.
 
 ## Estructura del Proyecto
 
 ```
-.agent/workflows/   # Definiciones de roles y flujos (Architect, Swarm)
+.agent/workflows/   # Definiciones de roles y flujos (Architect, Swarm, Preflight)
 .context/           # Reglas automaticas (Coding Style)
 src/tools/          # Herramientas personalizadas (Python, opcional)
 src/skills/         # Skills instaladas (planning-with-files, etc.)
@@ -58,6 +60,7 @@ artifacts/          # Planes y documentacion generada
 
 ## Herramientas
 Cualquier script Python que agregues a `src/tools/` sera detectado automaticamente por los agentes. Usa esta carpeta para utilidades especificas del proyecto.
+*   **`src/tools/skills_catalog.py`**: Una utilidad para buscar skills en skills.sh y listar skills locales.
 
 ## OpenSpec
 Para cambios complejos, usa el sistema OpenSpec en la carpeta `openspec/`.
