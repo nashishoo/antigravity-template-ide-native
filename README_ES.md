@@ -17,7 +17,7 @@ El flujo de trabajo es **100% paralelo y delegativo**:
 ## Como Empezar (Day 1)
 
 No necesitas instalar nada. Tu IDE ya tiene todo lo necesario.
-> **¿Atascado?** Revisa la [Guía de Solución de Problemas](docs/TROUBLESHOOTING.md).
+> **¿Atascado?** Revisa la [Guía de Solución de Problemas](docs/TROUBLESHOOTING_ES.md).
 
 ### 1. Define tu Mision
 Edita `mission.md` con el objetivo de tu proyecto.
