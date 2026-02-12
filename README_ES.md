@@ -28,9 +28,9 @@ Abre `mission.md`. Este archivo contiene el **System Prompt** que guía al Arqui
 *   **Guarda**: Asegúrate de guardar. los cambios.
 
 ### 2. Activa al Arquitecto
-1.  **Selecciona Todo**: Copia el *contenido completo* de `mission.md` (Ctrl+A, Ctrl+C).
-2.  **Pega**: Ve a la **Ventana Principal de Chat** y pega el contenido.
-3.  **Envía**: El Arquitecto analizará tu misión y generará los siguientes pasos.
+1.  **Abre el Chat**: Ve a la **Ventana Principal de Chat**.
+2.  **Prompt**: Escribe algo como: *"Lee mission.md e inicia la misión"* o *"Actúa como el Arquitecto definido en mission.md"*.
+3.  **Envía**: El Agente leerá el archivo y asumirá el rol de Arquitecto.
 
 ### 3. Distribuye el Trabajo (Modo Paralelo)
 El Arquitecto te devolverá **Prompts para Trabajadores** (tareas formateadas para roles específicos).

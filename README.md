@@ -28,9 +28,9 @@ Open `mission.md`. This file contains the **System Prompt** that drives the Arch
 *   **Save**: Ensure your changes are saved.
 
 ### 2. Activate the Architect
-1.  **Select All**: Copy the *entire content* of `mission.md` (Ctrl+A, Ctrl+C).
-2.  **Paste**: Go to the **Main Chat Window** and paste the content.
-3.  **Send**: The Architect will analyze your mission and generate the next steps.
+1.  **Open Chat**: Go to the **Main Chat Window**.
+2.  **Prompt**: Type something like: *"Read mission.md and start the mission"* or *"Act as the Architect defined in mission.md"*.
+3.  **Send**: The Agent will read the file and assume the Architect persona.
 
 ### 3. Distribute the Work (Parallel Mode)
 The Architect will return **Workers' Prompts** (formatted tasks for specific roles).
