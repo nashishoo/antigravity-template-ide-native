@@ -8,7 +8,8 @@ existence of skills/tools. Record findings in your summary to keep the
 parallel workflow grounded in reality.
 
 ## 1. Local Skills Inventory
-- Use `list_local_skills()` to enumerate all `SKILL.md` files under `src/skills/`.
+- Use `list_local_skills()` to enumerate all `SKILL.md` files.
+- This checks `src/skills/` AND any paths in `.agent/skills.json`.
 - Note any nested skill packs (e.g. `.agents/skills/*`).
 - If required skills are missing, call it out explicitly.
 
@@ -18,8 +19,8 @@ parallel workflow grounded in reality.
 - If not available, explicitly report the missing dependency and suggest install.
 
 ## 3. External Skill Discovery
-- Use `search_skills_catalog("<query>")` to scan `skills.sh` for relevant skills.
-- Provide top 3-5 matches with install commands (`npx skills add owner/repo@skill`).
+- Use `search_skills_catalog("<query>")` to scan **both** `skills.sh` and `awesome-agent-skills`.
+- Provide top 3-5 matches with install commands or URLs.
 - If results are empty, suggest refining keywords or using `npx skills find`.
 
 ## 4. Delegation Gate

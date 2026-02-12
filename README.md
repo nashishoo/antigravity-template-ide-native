@@ -17,22 +17,26 @@ The workflow is **100% parallel and delegative**:
 ## Getting Started (Day 1)
 
 No installation required. Your IDE already has everything it needs.
-> **Stuck?** Check out the [Troubleshooting Guide](docs/TROUBLESHOOTING.md).
+> **Stuck?** Check out the [Troubleshooting Guide](docs/TROUBLESHOOTING.md) or the **[Detailed Guide](docs/DETAILED_GUIDE.md)**.
 
-### 1. Define Your Mission
-Edit `mission.md` with the goal of your project.
-> Example: "Create a REST API for inventory management."
+### 1. Configure the Mission (The Foundation)
+Open `mission.md`. This file contains the **System Prompt** that drives the Architect.
+
+> **💡 Pro Tip:** Don't write the mission from scratch. Use a superior model (Sonnet 4.5, GPT-5, Gemini 3 Pro) to generate a robust Objective and Description for you. See the **[Detailed Guide](docs/DETAILED_GUIDE.md)** for the recommended prompt.
+
+*   **Edit**: Replace the default "Objective" with your actual goal.
+*   **Save**: Ensure your changes are saved.
 
 ### 2. Activate the Architect
-In the main chat window, say:
-> "I updated the mission. Act as Architect and give me prompts for my workers."
+1.  **Select All**: Copy the *entire content* of `mission.md` (Ctrl+A, Ctrl+C).
+2.  **Paste**: Go to the **Main Chat Window** and paste the content.
+3.  **Send**: The Architect will analyze your mission and generate the next steps.
 
 ### 3. Distribute the Work (Parallel Mode)
-The Architect will analyze your mission, **scan available skills**, and return copy-paste prompts.
-* **Open a new chat window** -> Paste the **Coder** prompt.
-* **Open another window** -> Paste the **Reviewer** prompt.
-
-Your agents will work in parallel with built-in tooling.
+The Architect will return **Workers' Prompts** (formatted tasks for specific roles).
+1.  **Open New Windows**: Open as many new Antigravity windows as needed (e.g., one for Coder, one for Reviewer).
+2.  **Paste & Run**: Copy the specific prompt for each role into its own window.
+3.  **Monitor**: Your agents are now working in parallel, fully context-aware.
 
 ### Architect Preflight
 Before delegating any work, the **Architect** must run the preflight workflow to verify available skills and tools:
@@ -50,6 +54,18 @@ openspec/           # Change management system (Specs)
 mission.md          # Project objective
 artifacts/          # Generated plans and documentation
 ```
+
+## 🧠 Skills & Tools
+
+The template comes with core skills in `src/skills/`. You can extend capabilities by:
+
+1.  **Creating local skills:** Add new folders with `SKILL.md` and `tools.py` in `src/skills/`.
+2.  **Registering external skills:** Add paths to other skill directories in `.agent/skills.json`.
+3.  **Discovering community skills:**
+    - Use the **Architect Preflight** workflow to search `awesome-agent-skills`.
+    - Run `npx skills find <query>` if you have the [Skills CLI](https://skills.sh).
+
+See [Local Skill Registry](docs/skills_registry.md) for configuration details.
 
 ## Tools
 Any Python script you add to `src/tools/` will be auto-discovered by agents. Use this folder for project-specific utilities.

@@ -19,23 +19,30 @@ Before delegating any work, the Architect MUST run the preflight workflow at `.a
 *   **`system_prompt.md`**: Core persona definition.
 *   **`src/skills/planning-with-files/`**: Native skill for persistent memory. Use it to create `task_plan.md` for complex tasks.
 
-## 3. Key Directories
+## 3. Skill System
+- **Location**: `src/skills/` (default) and paths in `.agent/skills.json`.
+- **Structure**: Each skill is a folder with `SKILL.md` (docs) and `tools.py` (code).
+- **Discovery**:
+    - Local: Recursively scans `src/skills` and registered directories.
+    - Remote: Can search [awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) and [skills.sh](https://skills.sh).
+
+## 4. Key Directories
 *   **`.agent/workflows/`**: Defines the role of the Architect and the Swarm protocol.
-*   **`src/tools/`**: Place any Python utility script here (e.g., `skills_catalog.py`), and the agents will automatically be able to use it.
+*   **`src/tools/`**: Place any Python utility script here, and the agents will automatically be able to use it.
 *   **`openspec/`**: Use this for proposing and validating complex changes.
 *   **`artifacts/`**: All plans, logs, and evidence must be saved here.
 
-## 4. How to Interact
+## 5. How to Interact
 1.  **Day 1:** Edit `mission.md` to define your goal.
 2.  **Act:** Tell the Main Agent (Architect) to break down the work.
 3.  **Distribute:** Copy-paste the generated prompts into new agent windows.
 
-## 5. Artifact-First Workflow
+## 6. Artifact-First Workflow
 - For complex code changes, create a plan file in `artifacts/plan_[task_id].md`.
 - Store test/log output in `artifacts/logs/`.
 - If UI is modified, include a screenshot artifact.
 
-## 6. Coding Standards
+## 7. Coding Standards
 - **Type hints are required** for all function signatures.
 - **Docstrings are required** for functions/classes; use Google-style format.
 - **Use Pydantic** for data models and settings.

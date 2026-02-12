@@ -4,12 +4,12 @@ Instructions for AI coding assistants using OpenSpec for spec-driven development
 
 ## TL;DR Quick Checklist
 
-- Search existing work: `openspec spec list --long`, `openspec list` (use `rg` only for full-text search)
+- Search existing work: `ls openspec/specs`, `ls openspec/changes` (use `rg` for content search)
 - Decide scope: new capability vs modify existing capability
 - Pick a unique `change-id`: kebab-case, verb-led (`add-`, `update-`, `remove-`, `refactor-`)
 - Scaffold: `proposal.md`, `tasks.md`, `design.md` (only if needed), and delta specs per affected capability
 - Write deltas: use `## ADDED|MODIFIED|REMOVED|RENAMED Requirements`; include at least one `#### Scenario:` per requirement
-- Validate: `openspec validate [change-id] --strict` and fix issues
+- Validate: Manually check against `openspec/project.md` conventions
 - Request approval: Do not start implementation until proposal is approved
 
 ## Three-Stage Workflow
@@ -41,10 +41,10 @@ Skip proposal for:
 - Tests for existing behavior
 
 **Workflow**
-1. Review `openspec/project.md`, `openspec list`, and `openspec list --specs` to understand current context.
+1. Review `openspec/project.md` and check `openspec/specs/` to understand current context.
 2. Choose a unique verb-led `change-id` and scaffold `proposal.md`, `tasks.md`, optional `design.md`, and spec deltas under `openspec/changes/<id>/`.
 3. Draft spec deltas using `## ADDED|MODIFIED|REMOVED Requirements` with at least one `#### Scenario:` per requirement.
-4. Run `openspec validate <id> --strict` and resolve any issues before sharing the proposal.
+4. Manually validate your files against the conventions in `openspec/project.md` before sharing.
 
 ### Stage 2: Implementing Changes
 Track these steps as TODOs and complete them one by one.
@@ -59,9 +59,7 @@ Track these steps as TODOs and complete them one by one.
 ### Stage 3: Archiving Changes
 After deployment, create separate PR to:
 - Move `changes/[name]/` → `changes/archive/YYYY-MM-DD-[name]/`
-- Update `specs/` if capabilities changed
-- Use `openspec archive <change-id> --skip-specs --yes` for tooling-only changes (always pass the change ID explicitly)
-- Run `openspec validate --strict` to confirm the archived change passes checks
+- Update `specs/` if capabilities changed (manually apply non-conflicting deltas)
 
 ## Before Any Task
 
@@ -69,56 +67,28 @@ After deployment, create separate PR to:
 - [ ] Read relevant specs in `specs/[capability]/spec.md`
 - [ ] Check pending changes in `changes/` for conflicts
 - [ ] Read `openspec/project.md` for conventions
-- [ ] Run `openspec list` to see active changes
-- [ ] Run `openspec list --specs` to see existing capabilities
+- [ ] Check `openspec/changes` to see active proposals
+- [ ] Check `openspec/specs` to see existing capabilities
 
 **Before Creating Specs:**
 - Always check if capability already exists
 - Prefer modifying existing specs over creating duplicates
-- Use `openspec show [spec]` to review current state
+- Manually review `specs/[capability]/spec.md` to see current state
 - If request is ambiguous, ask 1–2 clarifying questions before scaffolding
 
 ### Search Guidance
-- Enumerate specs: `openspec spec list --long` (or `--json` for scripts)
-- Enumerate changes: `openspec list` (or `openspec change list --json` - deprecated but available)
-- Show details:
-  - Spec: `openspec show <spec-id> --type spec` (use `--json` for filters)
-  - Change: `openspec show <change-id> --json --deltas-only`
+- Enumerate specs: `ls openspec/specs`
+- Enumerate changes: `ls openspec/changes`
 - Full-text search (use ripgrep): `rg -n "Requirement:|Scenario:" openspec/specs`
 
 ## Quick Start
 
-### CLI Commands
+### File Operations
 
-```bash
-# Essential commands
-openspec list                  # List active changes
-openspec list --specs          # List specifications
-openspec show [item]           # Display change or spec
-openspec validate [item]       # Validate changes or specs
-openspec archive <change-id> [--yes|-y]   # Archive after deployment (add --yes for non-interactive runs)
-
-# Project management
-openspec init [path]           # Initialize OpenSpec
-openspec update [path]         # Update instruction files
-
-# Interactive mode
-openspec show                  # Prompts for selection
-openspec validate              # Bulk validation mode
-
-# Debugging
-openspec show [change] --json --deltas-only
-openspec validate [change] --strict
-```
-
-### Command Flags
-
-- `--json` - Machine-readable output
-- `--type change|spec` - Disambiguate items
-- `--strict` - Comprehensive validation
-- `--no-interactive` - Disable prompts
-- `--skip-specs` - Archive without spec updates
-- `--yes`/`-y` - Skip confirmation prompts (non-interactive archive)
+- **List Active Changes:** `ls openspec/changes`
+- **List Specifications:** `ls openspec/specs`
+- **View Details:** Open the relevant .md files directly.
+- **Search:** Use `grep` or `rg` to find specific requirements.
 
 ## Directory Structure
 

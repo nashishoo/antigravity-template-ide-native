@@ -16,23 +16,27 @@ El flujo de trabajo es **100% paralelo y delegativo**:
 
 ## Como Empezar (Day 1)
 
-No necesitas instalar nada. Tu IDE ya tiene todo lo necesario.
-> **¿Atascado?** Revisa la [Guía de Solución de Problemas](docs/TROUBLESHOOTING_ES.md).
+No requiere instalación. Tu IDE ya tiene todo lo que necesita.
+> **¿Atascado?** Revisa la [Guía de Problemas](docs/TROUBLESHOOTING_ES.md) o la **[Guía Detallada](docs/DETAILED_GUIDE_ES.md)**.
 
-### 1. Define tu Mision
-Edita `mission.md` con el objetivo de tu proyecto.
-> Ejemplo: "Crear una API REST para gestion de inventario."
+### 1. Configura la Misión (Los Cimientos)
+Abre `mission.md`. Este archivo contiene el **System Prompt** que guía al Arquitecto.
+
+> **💡 Pro Tip:** No escribas la misión desde cero. Usa un modelo superior (Sonnet 4.5, GPT-5, Gemini 3 Pro) para generar un Objetivo y Descripción robustos. Mira la **[Guía Detallada](docs/DETAILED_GUIDE_ES.md)** para ver el prompt recomendado.
+
+*   **Edita**: Reemplaza el "Objective" por defecto con tu meta real.
+*   **Guarda**: Asegúrate de guardar. los cambios.
 
 ### 2. Activa al Arquitecto
-En la ventana principal de chat, di:
-> "He actualizado la mision. Actua como Arquitecto y dame los prompts para mis workers."
+1.  **Selecciona Todo**: Copia el *contenido completo* de `mission.md` (Ctrl+A, Ctrl+C).
+2.  **Pega**: Ve a la **Ventana Principal de Chat** y pega el contenido.
+3.  **Envía**: El Arquitecto analizará tu misión y generará los siguientes pasos.
 
-### 3. Distribuye el Trabajo (Parallel Mode)
-El Arquitecto analizara tu mision, **revisara las skills instaladas**, y te dara prompts listos para copiar y pegar.
-* **Abre una nueva ventana de chat** -> Pega el prompt del **Coder**.
-* **Abre otra ventana** -> Pega el prompt del **Reviewer**.
-
-Tus agentes trabajaran en paralelo con tooling nativo.
+### 3. Distribuye el Trabajo (Modo Paralelo)
+El Arquitecto te devolverá **Prompts para Trabajadores** (tareas formateadas para roles específicos).
+1.  **Abre Nuevas Ventanas**: Abre tantas ventanas de Antigravity como necesites (ej: una para Coder, otra para Reviewer).
+2.  **Pega y Ejecuta**: Copia el prompt específico para cada rol en su propia ventana.
+3.  **Monitorea**: Tus agentes ahora están trabajando en paralelo, con contexto completo.
 
 ## Caracteristicas Nativas
 
@@ -51,8 +55,16 @@ Antes de delegar cualquier trabajo, el **Arquitecto** debe ejecutar el flujo de 
 ```
 .agent/workflows/   # Definiciones de roles y flujos (Architect, Swarm, Preflight)
 .context/           # Reglas automaticas (Coding Style)
+skills_registry.json # Registro local de skills
 src/tools/          # Herramientas personalizadas (Python, opcional)
 src/skills/         # Skills instaladas (planning-with-files, etc.)
+.agent/skills/      # Paquetes de skills (opcional)
+.agents/skills/     # Paquetes de skills (opcional)
+.github/skills/     # Skills compartidas (opcional)
+.claude/skills/     # Skills compatibles con Claude (opcional)
+.codex/skills/      # Skills compatibles con Codex (opcional)
+.cursor/skills/     # Skills compatibles con Cursor (opcional)
+.vscode/skills/     # Skills compatibles con VS Code (opcional)
 openspec/           # Sistema de gestion de cambios (Specs)
 mission.md          # Objetivo del proyecto
 artifacts/          # Planes y documentacion generada
@@ -60,7 +72,7 @@ artifacts/          # Planes y documentacion generada
 
 ## Herramientas
 Cualquier script Python que agregues a `src/tools/` sera detectado automaticamente por los agentes. Usa esta carpeta para utilidades especificas del proyecto.
-*   **`src/tools/skills_catalog.py`**: Una utilidad para buscar skills en skills.sh y listar skills locales.
+*   **`src/tools/skills_catalog.py`**: Lista skills locales en todos los roots soportados y consulta el registro local.
 
 ## OpenSpec
 Para cambios complejos, usa el sistema OpenSpec en la carpeta `openspec/`.
@@ -71,3 +83,8 @@ Este proyecto es un **Fork IDE-Nativo** del [Antigravity Workspace Template](htt
 * **Autor Original**: Jingwen Fan.
 * **Edicion IDE-Nativa (2026)**: Desarrollada por **Catapaz** en colaboracion con **Gemini 3**.
 * **Modificaciones**: Adaptado para ejecucion paralela sin dependencias de Python/API externas.
+
+
+
+
+
