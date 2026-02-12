@@ -1,69 +1,70 @@
-# 🪐 Antigravity Workspace (IDE-Native Edition)
+# Antigravity Workspace (IDE-Native Edition)
 
-**Kit de inicio para desarrollo paralelo con Agentes de IA en Antigravity IDE.**
+**Starter kit for parallel AI agent development inside the Antigravity IDE.**
 
 ![Architecture](https://img.shields.io/badge/Architecture-Parallel_Workers-purple)
 ![Workflow](https://img.shields.io/badge/Workflow-Head_Architect-blue)
 
-## 🌟 Filosofía: "El Arquitecto y sus Trabajadores"
+## Philosophy: "The Architect and the Workers"
 
-Este template ha sido optimizado para trabajar **exclusivamente dentro del IDE Antigravity**, eliminando la necesidad de scripts de Python externos o claves de API complejas.
+This template is optimized to run **entirely inside the Antigravity IDE**, removing the need for external Python engines or complex API setup.
 
-El flujo de trabajo es **100% Paralelo y Delegativo**:
+The workflow is **100% parallel and delegative**:
 
-1.  **Tú + Ventana Principal** = **Head Architect**.
-2.  **Otras Ventanas** = **Specialist Workers (Coder, Reviewer, etc.)**.
+1. **You + Main Window** = **Head Architect**.
+2. **Other Windows** = **Specialist Workers (Coder, Reviewer, etc.)**.
 
-## 🚀 Cómo Empezar (Day 1)
+## Getting Started (Day 1)
 
-No tienes que instalar nada. Tu IDE ya tiene todo lo necesario.
+No installation required. Your IDE already has everything it needs.
+> **Stuck?** Check out the [Troubleshooting Guide](docs/TROUBLESHOOTING.md).
 
-### 1. Define tu Misión
-Edita el archivo `mission.md` con el objetivo de tu proyecto.
-> Ej: "Crear una API REST para gestión de inventario."
+### 1. Define Your Mission
+Edit `mission.md` with the goal of your project.
+> Example: "Create a REST API for inventory management."
 
-### 2. Activa al Arquitecto
-En la ventana principal de chat, di:
-> "He actualizado la misión. Actúa como Arquitecto y dame los prompts para mis workers."
+### 2. Activate the Architect
+In the main chat window, say:
+> "I updated the mission. Act as Architect and give me prompts for my workers."
 
-### 3. Distribuye el Trabajo (Parallel Mode)
-El Arquitecto analizará tu misión, **buscará skills útiles** y te dará bloques de texto listos para copiar y pegar.
-*   **Abre una nueva ventana de chat** -> Pega el prompt del **Coder**.
-*   **Abre otra ventana** -> Pega el prompt del **Reviewer**.
+### 3. Distribute the Work (Parallel Mode)
+The Architect will analyze your mission, **scan available skills**, and return copy-paste prompts.
+* **Open a new chat window** -> Paste the **Coder** prompt.
+* **Open another window** -> Paste the **Reviewer** prompt.
 
-¡Tus agentes trabajarán en paralelo con superpoderes instalados!
+Your agents will work in parallel with built-in tooling.
 
-## ✨ Características Nativas
+## Native Features
 
-### 🧠 Memoria Persistente (`planning-with-files`)
-El template incluye una skill nativa para gestionar memoria a largo plazo.
-*   Tus agentes crearán automáticamente `task_plan.md` y `findings.md`.
-*   Esto les permite recordar decisiones complejas entre sesiones.
+### Persistent Memory (`planning-with-files`)
+The template ships with a native skill for long-term memory.
+* Your agents automatically create `task_plan.md` and `findings.md`.
+* This makes complex decisions persistent between sessions.
 
-### 🕵️ Skill Scouting
-El Arquitecto tiene la capacidad de buscar nuevas herramientas en `skills.sh` y sugerirte su instalación automática en los prompts de trabajo.
+### Skill Scouting
+The Architect can review installed skills in `src/skills/` and suggest them in worker prompts.
 
-## 📂 Estructura del Proyecto
+## Project Structure
 
 ```
-.agent/workflows/   # Definiciones de roles y flujos (Architect, Swarm)
-.context/           # Reglas automáticas (Coding Style)
-src/tools/          # Herramientas personalizadas (Python)
-src/skills/         # Skills instaladas (planning-with-files, etc.)
-openspec/           # Sistema de gestión de cambios (Specs)
-mission.md          # Objetivo del proyecto
-artifacts/          # Planes y documentación generada
+.agent/workflows/   # Role and workflow definitions (Architect, Swarm)
+.context/           # Automated rules (Coding Style)
+src/tools/          # Custom tools (Python, optional)
+src/skills/         # Installed skills (planning-with-files, etc.)
+openspec/           # Change management system (Specs)
+mission.md          # Project objective
+artifacts/          # Generated plans and documentation
 ```
 
-## 🛠️ Herramientas
-Cualquier script Python que pongas en `src/tools/` será automáticamente detectado por los agentes. ¡Úsalo para crear utilidades específicas para tu proyecto!
+## Tools
+Any Python script you add to `src/tools/` will be auto-discovered by agents. Use this folder for project-specific utilities.
 
-## 🤝 OpenSpec
-Para cambios complejos, usa el sistema OpenSpec en la carpeta `openspec/`.
+## OpenSpec
+For complex changes, use the OpenSpec system in the `openspec/` folder.
 
-## 🙏 Créditos y Licencia
-Este proyecto es un **Fork IDE-Nativo** del [Antigravity Workspace Template](https://github.com/filosofia-codigo/antigravity-workspace-template) original.
-*   **Licencia**: MIT (Ver `LICENSE`).
-*   **Autor Original**: Jingwen Fan.
-*   **Edición IDE-Nativa (2026)**: Desarrollada por **Catapaz** en colaboración con **Gemini 3**.
-*   **Modificaciones**: Adaptado para ejecución paralela sin dependencias de Python/API externas.
+## Credits and License
+This project is an **IDE-Native fork** of the original [Antigravity Workspace Template](https://github.com/filosofia-codigo/antigravity-workspace-template).
+* **License**: MIT (see `LICENSE`).
+* **Original Author**: Jingwen Fan.
+* **IDE-Native Edition (2026)**: Built by **Catapaz** in collaboration with **Gemini 3**.
+* **Modifications**: Adapted for parallel execution without external Python/API dependencies.

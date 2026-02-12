@@ -7,7 +7,7 @@ This workflow optimizes for massive parallelism by turning the main window into 
 
 ## 1. ARCHITECT PHASE (This Window)
 -   **Analyze**: Understand the high-level goal.
--   **Skill Scout**: briefly research `skills.sh` (via `npx skills list` or web search) to find tools that could solve the problem faster.
+-   **Skill Scout**: review `src/skills/` and installed skills to find tools that could solve the problem faster.
 -   **Structure**: Break it down into independent components.
 -   **Generate Prompts**: Create specialized prompts for each worker.
     -   *CRITICAL*: Each prompt MUST include a "Context Injection" block so the worker agent immediately understands the project structure without manual explanation.
@@ -17,7 +17,7 @@ This workflow optimizes for massive parallelism by turning the main window into 
         
         ## CONTEXT
         - Project: Antigravity Workspace
-        - Tech Stack: Python, Gemini, MCP
+        - Tech Stack: IDE-native agents, optional Python tools
         - Rules: Follow .context/coding_style.md
         - **TOOLING**: Use `planning-with-files` skill for any complex logic. Initialize with `task_plan.md`.
         
