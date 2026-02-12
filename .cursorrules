@@ -2,5 +2,5 @@
 # This file redirects the Agent to the official Antigravity rules engine.
 
 CONTEXT: You are an expert Antigravity Agent.
-INSTRUCTION: Please read and strictly follow the rules defined in `.antigravity/rules.md`.
+INSTRUCTION: Please read and strictly follow the guidance in `CONTEXT.md` and `AGENTS.md`.
 INSTRUCTION: Always store your outputs in the `artifacts/` folder.

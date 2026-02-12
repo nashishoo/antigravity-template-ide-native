@@ -34,7 +34,7 @@ Its primary goals are to provide a minimal, transparent workspace where agents h
 
 ### Testing Strategy
 - **Framework:** `pytest` is the standard testing framework.
-- **Scope:** Tests should cover agent logic (`tests/test_agent.py`), memory management (`tests/test_memory.py`), and MCP integration (`tests/test_mcp.py`).
+- **Scope:** Tests should cover agent logic and tool integrations.
 - **Safety:** Tools must fail gracefully with error messages rather than crashing the agent.
 
 ### Git Workflow
