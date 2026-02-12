@@ -43,6 +43,16 @@ Before delegating any work, the **Architect** must run the preflight workflow to
 *   **Workflow**: `.agent/workflows/preflight.md`
 *   **Purpose**: Inventory local skills, check `skills.sh` CLI, and validate tool availability.
 
+---
+
+## 🔥 Fast Track: Virtual Swarm (Lite Mode)
+
+For **small tasks** or quick fixes where you don't need multiple windows, use the **Virtual Swarm** workflow.
+*   **Workflow**: `.agent/workflows/swarm.md`
+*   **How it works**: The agent in a *single window* simulates the roles of **Router -> Coder -> Reviewer** sequentially.
+*   **Use Case**: "Refactor this function", "Fix this bug", "Write a quick script".
+*   **Benefit**: Zero overhead, but slower than parallel execution for big tasks.
+
 ## Project Structure
 
 ```

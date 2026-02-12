@@ -50,6 +50,16 @@ Antes de delegar cualquier trabajo, el **Arquitecto** debe ejecutar el flujo de 
 *   **Workflow**: `.agent/workflows/preflight.md`
 *   **Propósito**: Inventariar skills locales, verificar la CLI de `skills.sh`, y validar la disponibilidad de herramientas.
 
+---
+
+## 🔥 Vía Rápida: Virtual Swarm (Modo Lite)
+
+Para **tareas pequeñas** o arreglos rápidos donde no necesitas múltiples ventanas, usa el flujo **Virtual Swarm**.
+*   **Workflow**: `.agent/workflows/swarm.md`
+*   **Cómo funciona**: El agente en una *sola ventana* simula los roles de **Router -> Coder -> Reviewer** secuencialmente.
+*   **Caso de Uso**: "Refactoriza esta función", "Arregla este bug", "Escribe un script rápido".
+*   **Beneficio**: Cero configuración, pero más lento que la ejecución paralela para tareas grandes.
+
 ## Estructura del Proyecto
 
 ```
