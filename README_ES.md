@@ -37,6 +37,18 @@ Construir una herramienta de nivel de producción requería más que solo "gener
 *   **Rol:** El "Consejero".
 *   **Implementación:** Un servidor ligero Node.js Express que actúa como puerta de enlace segura al LLM. Analiza ofertas al instante y da consejos sarcásticos y estratégicos.
 
+## 📂 Estructura del Proyecto
+Un diseño "Monorepo" que separa la PWA de la API.
+
+```
+.
+├── client/          # 📱 Frontend PWA (React + Vite)
+├── server/          # 🧠 API de Inteligencia (Node/Express + Gemini)
+├── docs/            # 📄 Reseñas y Guías del Proyecto
+├── .agent/          # 🤖 Configuración del Workflow Antigravity
+└── mission.md       # 🎯 El Prompt original de la IA
+```
+
 ## 🤖 El Flujo de Trabajo: "Antigravity"
 No escribí cada línea de código yo mismo. Lo **orquesté**.
 Usando los protocolos Antigravity, gestioné un equipo de agentes virtuales:

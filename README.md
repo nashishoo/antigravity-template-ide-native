@@ -37,6 +37,18 @@ Building a production-grade tool required more than just "generating code." I de
 *   **Role:** The "Advisor".
 *   **Implementation:** A lightweight Node.js Express server that acts as a secure gateway to the LLM. It analyzes trade offers instantly and provides sarcastic, strategic advice.
 
+## 📂 Project Structure
+A "Monorepo" layout separating the PWA from the API.
+
+```
+.
+├── client/          # 📱 The PWA Frontend (React + Vite)
+├── server/          # 🧠 The AI API (Node/Express + Gemini)
+├── docs/            # 📄 Project Reviews & Guides
+├── .agent/          # 🤖 Antigravity Workflow Config
+└── mission.md       # 🎯 The original AI Prompt
+```
+
 ## 🤖 The Workflow: "Antigravity"
 I did not write every line of code myself. I **orchestrated** it.
 Using the Antigravity protocols, I managed a team of virtual agents:
