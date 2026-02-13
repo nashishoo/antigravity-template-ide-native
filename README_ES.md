@@ -98,7 +98,14 @@ Para la hija de Dolan: *Que tus trades sean siempre Victorias.*
 
 > <br>
 >
-> **⚠️ NOTA DEL WORKFLOW:**  
-> Este repositorio representa una **Versión RAW (Cruda)**.  
-> El código, la documentación y la lógica aquí contenidos son la salida directa del *Workflow Antigravity*, sin post-procesamiento manual ni "pulido humano".  
-> Se mantiene como una huella transparente de lo que este template agéntico fue capaz de lograr en este momento específico (Feb 2026).
+> ## 🧬 Acerca de este Repositorio (Versión Raw)
+
+**Este repositorio es un artefacto transparente de Desarrollo Agéntico.**
+
+Cada línea de código, cada archivo de documentación y cada decisión de diseño aquí contenida fue generada por el **Workflow Antigravity** (Agente Arquitecto + Agentes Trabajadores).
+
+*   **Cero Pulido Humano:** El "Operador Humano" (Dolan) actuó solo como ingeniero de prompts. La ejecución fue 100% sintética.
+*   **Autenticación:** Este repo sirve como prueba de concepto de las capacidades de **Gemini 3 Pro** (Arquitectura) y **Opus 4.6** (Lógica) trabajando en concierto.
+*   **Propósito:** Demostrar que los Agentes de IA ahora pueden entregar software de producción full-stack complejo (PWA, API, Scrapers) a partir de una sola declaración de misión.
+
+*Se mantiene como una huella de lo que era posible lograr en Febrero de 2026.*
