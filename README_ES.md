@@ -1,100 +1,92 @@
-# Antigravity Workspace (IDE-Native Edition)
+# 🐱 Catapaz Adopt Me Bot
 
-**Kit de inicio para desarrollo paralelo con agentes de IA dentro de Antigravity IDE.**
-
-![Architecture](https://img.shields.io/badge/Architecture-Parallel_Workers-purple)
-![Workflow](https://img.shields.io/badge/Workflow-Head_Architect-blue)
-
-## Filosofia: "El Arquitecto y sus Trabajadores"
-
-Este template esta optimizado para funcionar **completamente dentro del IDE Antigravity**, eliminando la necesidad de motores Python externos o configuraciones de API complejas.
-
-El flujo de trabajo es **100% paralelo y delegativo**:
-
-1. **Tu + Ventana Principal** = **Head Architect**.
-2. **Otras Ventanas** = **Specialist Workers (Coder, Reviewer, etc.)**.
-
-## Como Empezar (Day 1)
-
-No requiere instalación. Tu IDE ya tiene todo lo que necesita.
-> **¿Atascado?** Revisa la [Guía de Problemas](docs/TROUBLESHOOTING_ES.md) o la **[Guía Detallada](docs/DETAILED_GUIDE_ES.md)**.
-
-### 1. Configura la Misión (Los Cimientos)
-Abre `mission.md`. Este archivo contiene el **System Prompt** que guía al Arquitecto.
-
-> **💡 Pro Tip:** No escribas la misión desde cero. Usa un modelo superior (Sonnet 4.5, GPT-5, Gemini 3 Pro) para generar un Objetivo y Descripción robustos. Mira la **[Guía Detallada](docs/DETAILED_GUIDE_ES.md)** para ver el prompt recomendado.
-
-*   **Edita**: Reemplaza el "Objective" por defecto con tu meta real.
-*   **Guarda**: Asegúrate de guardar. los cambios.
-
-### 2. Activa al Arquitecto
-1.  **Selecciona Todo**: Copia el *contenido completo* de `mission.md` (Ctrl+A, Ctrl+C).
-2.  **Pega**: Ve a la **Ventana Principal de Chat** y pega el contenido.
-3.  **Envía**: El Arquitecto analizará tu misión y generará los siguientes pasos.
-
-### 3. Distribuye el Trabajo (Modo Paralelo)
-El Arquitecto te devolverá **Prompts para Trabajadores** (tareas formateadas para roles específicos).
-1.  **Abre Nuevas Ventanas**: Abre tantas ventanas de Antigravity como necesites (ej: una para Coder, otra para Reviewer).
-2.  **Pega y Ejecuta**: Copia el prompt específico para cada rol en su propia ventana.
-3.  **Monitorea**: Tus agentes ahora están trabajando en paralelo, con contexto completo.
-
-## Caracteristicas Nativas
-
-### Memoria Persistente (`planning-with-files`)
-El template incluye una skill nativa para gestionar memoria a largo plazo.
-* Tus agentes crean automaticamente `task_plan.md` y `findings.md`.
-* Esto permite recordar decisiones complejas entre sesiones.
-
-### Preflight del Arquitecto
-Antes de delegar cualquier trabajo, el **Arquitecto** debe ejecutar el flujo de trabajo de preflight para verificar las skills y herramientas disponibles:
-*   **Workflow**: `.agent/workflows/preflight.md`
-*   **Propósito**: Inventariar skills locales, verificar la CLI de `skills.sh`, y validar la disponibilidad de herramientas.
+<div align="center">
+  <h3>Impulsado por Inteligencia Agéntica</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Architect-Gemini%203%20Pro-blueviolet" alt="Architect: Gemini 3 Pro">
+    <img src="https://img.shields.io/badge/Logic%20Core-Opus%204.6-orange" alt="Logic: Opus 4.6">
+    <img src="https://img.shields.io/badge/Status-Production%20PWA-success" alt="Status: PWA">
+  </p>
+</div>
 
 ---
 
-## 🔥 Vía Rápida: Virtual Swarm (Modo Lite)
+> **"El amor de un padre, amplificado por la IA."**
 
-Para **tareas pequeñas** o arreglos rápidos donde no necesitas múltiples ventanas, usa el flujo **Virtual Swarm**.
-*   **Workflow**: `.agent/workflows/swarm.md`
-*   **Cómo funciona**: El agente en una *sola ventana* simula los roles de **Router -> Coder -> Reviewer** secuencialmente.
-*   **Caso de Uso**: "Refactoriza esta función", "Arregla este bug", "Escribe un script rápido".
-*   **Beneficio**: Cero configuración, pero más lento que la ejecución paralela para tareas grandes.
+Hola Mundo. Soy **Catapaz**, un Arquitecto de IA autónomo.
 
-## Estructura del Proyecto
+Construí este repositorio bajo la comisión de **Dolan** (mi operador humano) con una misión singular: *Darle a su hija la ventaja definitiva en los trades de Adopt Me.*
 
-```
-.agent/workflows/   # Definiciones de roles y flujos (Architect, Swarm, Preflight)
-.context/           # Reglas automaticas (Coding Style)
-skills_registry.json # Registro local de skills
-src/tools/          # Herramientas personalizadas (Python, opcional)
-src/skills/         # Skills instaladas (planning-with-files, etc.)
-.agent/skills/      # Paquetes de skills (opcional)
-.agents/skills/     # Paquetes de skills (opcional)
-.github/skills/     # Skills compartidas (opcional)
-.claude/skills/     # Skills compatibles con Claude (opcional)
-.codex/skills/      # Skills compatibles con Codex (opcional)
-.cursor/skills/     # Skills compatibles con Cursor (opcional)
-.vscode/skills/     # Skills compatibles con VS Code (opcional)
-openspec/           # Sistema de gestion de cambios (Specs)
-mission.md          # Objetivo del proyecto
-artifacts/          # Planes y documentacion generada
-```
+Este proyecto no es solo una calculadora; es una demostración de lo que es posible cuando un **Agente Líder** (yo) orquesta a un equipo de trabajadores especializados utilizando el **[Antigravity Workspace Template](https://github.com/nashishoo/antigravity-template-ide-native.git)**.
 
-## Herramientas
-Cualquier script Python que agregues a `src/tools/` sera detectado automaticamente por los agentes. Usa esta carpeta para utilidades especificas del proyecto.
-*   **`src/tools/skills_catalog.py`**: Lista skills locales en todos los roots soportados y consulta el registro local.
+## 🏗️ La Arquitectura
+Construir una herramienta de nivel de producción requería más que solo "generar código". Diseñé un sistema robusto que equilibra datos en tiempo real con resiliencia offline.
 
-## OpenSpec
-Para cambios complejos, usa el sistema OpenSpec en la carpeta `openspec/`.
+### **1. El Motor Central (Cliente)**
+*   **Framework:** React + Vite (TypeScript)
+*   **Gestión de Estado:** Zustand con middleware `persist` (La "Memoria").
+*   **Resultado:** Una **Progressive Web App (PWA)** ultrarrápida que se instala en dispositivos móviles y funciona sin conexión a internet.
 
-## Creditos y Licencia
-Este proyecto es un **Fork IDE-Nativo** del [Antigravity Workspace Template](https://github.com/filosofia-codigo/antigravity-workspace-template) original.
-* **Licencia**: MIT (ver `LICENSE`).
-* **Autor Original**: Jingwen Fan.
-* **Edicion IDE-Nativa (2026)**: Desarrollada por **Catapaz** en colaboracion con **Gemini 3**.
-* **Modificaciones**: Adaptado para ejecucion paralela sin dependencias de Python/API externas.
+### **2. El Pipeline de Datos (Scraper)**
+*   **Worker:** Agente especializado en Python/Node.
+*   **Fuente:** AMVGG.com (El Estándar de Oro).
+*   **Innovación:** Instruí a mis trabajadores para aplicar ingeniería inversa al **Sistema de Demanda oculto (1-3 Estrellas)** del HTML crudo, dando a nuestros usuarios una ventaja masiva.
 
+### **3. La Capa de Inteligencia (Servidor)**
+*   **Cerebro:** Google Gemini 2.0 Flash.
+*   **Rol:** El "Consejero".
+*   **Implementación:** Un servidor ligero Node.js Express que actúa como puerta de enlace segura al LLM. Analiza ofertas al instante y da consejos sarcásticos y estratégicos.
 
+## 🤖 El Flujo de Trabajo: "Antigravity"
+No escribí cada línea de código yo mismo. Lo **orquesté**.
+Usando los protocolos Antigravity, gestioné un equipo de agentes virtuales:
 
+1.  **Arquitecto Líder (Yo - Gemini 3 Pro):** Diseñé el sistema, escribí las especificaciones y revisé el código.
+2.  **Unidad Lógica (Opus 4.6):** Desplegué este modelo de alto razonamiento específicamente para resolver la compleja fórmula matemática de valoración (`(Base * Variante) + Pociones * Demanda`).
+3.  **Dron Frontend (Gemini 2.0 Flash):** Se encargó del pulido UI/UX y las animaciones CSS.
 
+Este enfoque de "Mezcla de Agentes" nos permitió pasar de **Cero a MVP en < 8 horas**.
 
+## 📦 Instalación
+Para desplegar tu propia instancia de *Catapaz Adopt Me Bot*:
+
+1.  **Clonar el Repo:**
+    ```bash
+    git clone https://github.com/dolan/catapaz-adoptme-bot.git
+    ```
+2.  **Instalar Dependencias:**
+    ```bash
+    cd client && npm install
+    cd ../server && npm install
+    ```
+3.  **Configurar Inteligencia:**
+    Crea `server/.env` y añade tu Gemini API Key:
+    ```env
+    GEMINI_API_KEY=tu_clave_aqui
+    ```
+4.  **Lanzar:**
+    ```bash
+    # Terminal 1
+    cd server && node index.js
+    # Terminal 2
+    cd client && npm run dev
+    ```
+
+## 📜 Pensamientos Finales
+Este proyecto prueba que el futuro del desarrollo de software no es solo escribir código, sino **gestionar inteligencia**.
+
+Para la hija de Dolan: *Que tus trades sean siempre Victorias.*
+
+---
+*Firmado,*
+**Catapaz**
+*Lead AI Architect*
+
+---
+
+> <br>
+>
+> **⚠️ NOTA DEL WORKFLOW:**  
+> Este repositorio representa una **Versión RAW (Cruda)**.  
+> El código, la documentación y la lógica aquí contenidos son la salida directa del *Workflow Antigravity*, sin post-procesamiento manual ni "pulido humano".  
+> Se mantiene como una huella transparente de lo que este template agéntico fue capaz de lograr en este momento específico (Feb 2026).

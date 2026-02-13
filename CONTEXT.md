@@ -1,49 +1,46 @@
-# 🧠 AI-Optimized Project Context: Antigravity Workspace Template (IDE-Native)
+# 🧠 Project Context: Catapaz Adopt Me Bot
 
-## 1. Executive Summary & Core Mission
-**Project Name:** Antigravity Workspace Template (IDE Edition)
-**Mission:** To provide a "Zero-Config," enterprise-grade starter kit for building autonomous AI agents directly within the Antigravity IDE.
+## 1. Executive Summary
+**Project:** Catapaz Adopt Me Bot (PWA)
+**Architect:** Catapaz (AI)
+**Client:** Dolan (Human)
+**Mission:** Create an offline-capable, AI-powered trading assistant for Adopt Me.
+**Template:** [Antigravity Workspace Template](https://github.com/nashishoo/antigravity-template-ide-native.git)
 
-**Core Philosophy: "Parallel Architect Workflow"**
-1.  **Architect (You + Main Window):** Defines strategy, **scouts for skills**, and generates prompts for specialized workers.
-2.  **Workers (New Windows):** Execute specific tasks in parallel using the provided prompts and installed skills.
+## 2. Architecture & Data Flow
 
-**Architect Preflight Requirement**
-Before delegating any work, the Architect MUST run the preflight workflow at `.agent/workflows/preflight.md` to:
-- Inventory local skills under `src/skills/`.
-- Check skills.sh / `npx skills` availability.
-- Provide evidence of any skills suggested to workers.
+### A. Core Engine (Client)
+-   **Tech:** React + Vite + TypeScript.
+-   **State:** Zustand with LocalStorage Persistence (`zustand/middleware`).
+-   **Features:**
+    -   Value Calculation: `(Base * Variant) + Potions * Demand`.
+    -   PWA: Offline support via `vite-plugin-pwa`.
+    -   UI: Tailwind CSS + Lucide Icons (Holographic Theme).
 
-## 2. Cognitive Architecture (`.context/`)
-*   **`coding_style.md`**: Strict coding standards that all agents automatically follow.
-*   **`system_prompt.md`**: Core persona definition.
-*   **`src/skills/planning-with-files/`**: Native skill for persistent memory. Use it to create `task_plan.md` for complex tasks.
+### B. Data Layer (Scraper)
+-   **Source:** AMVGG.com.
+-   **Technique:** Playwright Scraper (`src/scrapers/amvgg.ts`).
+-   **Data Points:** Name, Base Value, Image, Demand (1-3 Stars).
+-   **Output:** `client/src/data/items.json` (Static JSON for speed).
 
-## 3. Skill System
-- **Location**: `src/skills/` (default) and paths in `.agent/skills.json`.
-- **Structure**: Each skill is a folder with `SKILL.md` (docs) and `tools.py` (code).
-- **Discovery**:
-    - Local: Recursively scans `src/skills` and registered directories.
-    - Remote: Can search [awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills) and [skills.sh](https://skills.sh).
+### C. Intelligence Layer (Server)
+-   **Brain:** Gemini 2.0 Flash.
+-   **Gateway:** Node.js Express Server (`server/index.js`).
+-   **Endpoint:** `POST /analyze`.
+-   **Role:** Analyzes trade fairness and suggests negotiation tactics.
 
-## 4. Key Directories
-*   **`.agent/workflows/`**: Defines the role of the Architect and the Swarm protocol.
-*   **`src/tools/`**: Place any Python utility script here, and the agents will automatically be able to use it.
-*   **`openspec/`**: Use this for proposing and validating complex changes.
-*   **`artifacts/`**: All plans, logs, and evidence must be saved here.
+## 3. Key Directories
+-   `client/`: Frontend application.
+-   `server/`: Backend API for Gemini.
+-   `src/scrapers/`: Data ingestion scripts.
+-   `docs/`: Project documentation and reviews.
+-   `artifacts/`: Workflow artifacts (`task.md`, `worker_prompts.md`).
 
-## 5. How to Interact
-1.  **Day 1:** Edit `mission.md` to define your goal.
-2.  **Act:** Tell the Main Agent (Architect) to break down the work.
-3.  **Distribute:** Copy-paste the generated prompts into new agent windows.
+## 4. Coding Standards
+-   **Strict Separation:** Logic (Calculations) vs UI (Components).
+-   **Zero External DB:** Persistence must be local-first for reliability.
+-   **Agentic Workflow:** All major changes must pass through the Architect -> Worker flow.
 
-## 6. Artifact-First Workflow
-- For complex code changes, create a plan file in `artifacts/plan_[task_id].md`.
-- Store test/log output in `artifacts/logs/`.
-- If UI is modified, include a screenshot artifact.
-
-## 7. Coding Standards
-- **Type hints are required** for all function signatures.
-- **Docstrings are required** for functions/classes; use Google-style format.
-- **Use Pydantic** for data models and settings.
-- **External API calls** must be wrapped in tools under `src/tools/`.
+## 5. Credits
+Built using the **Antigravity Workspace Template**.
+Forked and Evolved by **Catapaz** (Gemini 3 Pro + Opus 4.6).

@@ -1,28 +1,24 @@
-# Python Basics
-__pycache__/
-*.py[cod]
-.Python
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Production
+build
+dist
+
+# Misc
+.DS_Store
 .env
-venv/
-.venv/
-env/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# IDE / Editor
-.idea/
-.vscode/
-*.swp
-
-# Antigravity Structure
-# Allow src/tools but ignore .keep if desired (keeping .keep is fine usually, but user wants clean)
-# We kept src/tools/.keep in the repo to preserve folder.
-# We want to ignore loose files if they are not tools? No, tools are user generated.
-
-# Project Data
-artifacts/logs/
-data/
-
-# Skills Management (Allow specific native skills, ignore others)
-src/skills/*
-!src/skills/.keep
-!src/skills/planning-with-files/
-!src/skills/github-actions-templates/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

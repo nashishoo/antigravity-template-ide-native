@@ -1,0 +1,5786 @@
+[
+  {
+    "name": "Bat Dragon",
+    "base_value": 550,
+    "image_url": "https://elvebredd.com/images/pets/Bat%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shadow Dragon",
+    "base_value": 498,
+    "image_url": "https://elvebredd.com/images/pets/Shadow%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Giraffe",
+    "base_value": 251,
+    "image_url": "https://elvebredd.com/images/pets/Giraffe.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frost Dragon",
+    "base_value": 199,
+    "image_url": "https://elvebredd.com/images/pets/Frost%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Owl",
+    "base_value": 157.5,
+    "image_url": "https://elvebredd.com/images/pets/Owl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Parrot",
+    "base_value": 124.5,
+    "image_url": "https://elvebredd.com/images/pets/Parrot.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Crow",
+    "base_value": 104,
+    "image_url": "https://elvebredd.com/images/pets/Crow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Evil Unicorn",
+    "base_value": 83.5,
+    "image_url": "https://elvebredd.com/images/pets/Evil%20Unicorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Balloon Unicorn",
+    "base_value": 62.5,
+    "image_url": "https://elvebredd.com/images/pets/Balloon%20Unicorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blazing Lion",
+    "base_value": 46,
+    "image_url": "https://elvebredd.com/images/pets/Blazing%20Lion.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Butterfly",
+    "base_value": 49,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Orchid Butterfly",
+    "base_value": 43,
+    "image_url": "https://elvebredd.com/images/pets/Orchid%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Arctic Reindeer",
+    "base_value": 39.5,
+    "image_url": "https://elvebredd.com/images/pets/Arctic%20Reindeer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cryptid",
+    "base_value": 37.5,
+    "image_url": "https://elvebredd.com/images/pets/Cryptid.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Giant Panda",
+    "base_value": 31,
+    "image_url": "https://elvebredd.com/images/pets/Giant%20Panda.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Haetae",
+    "base_value": 23.5,
+    "image_url": "https://elvebredd.com/images/pets/Haetae.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Turtle",
+    "base_value": 20.75,
+    "image_url": "https://elvebredd.com/images/pets/Turtle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Strawberry Shortcake Bat Dragon",
+    "base_value": 21.75,
+    "image_url": "https://elvebredd.com/images/pets/Strawberry%20Shortcake%20Bat%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chocolate Chip Bat Dragon",
+    "base_value": 19.75,
+    "image_url": "https://elvebredd.com/images/pets/Chocolate%20Chip%20Bat%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Monkey King",
+    "base_value": 21,
+    "image_url": "https://elvebredd.com/images/pets/Monkey%20King.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kangaroo",
+    "base_value": 15.5,
+    "image_url": "https://elvebredd.com/images/pets/Kangaroo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Albino Monkey",
+    "base_value": 15.25,
+    "image_url": "https://elvebredd.com/images/pets/Albino%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fairy Bat Dragon",
+    "base_value": 9.5,
+    "image_url": "https://elvebredd.com/images/pets/Fairy%20Bat%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hot Doggo",
+    "base_value": 17.25,
+    "image_url": "https://elvebredd.com/images/pets/Hot%20Doggo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Candyfloss Chick",
+    "base_value": 13.5,
+    "image_url": "https://elvebredd.com/images/pets/Candyfloss%20Chick.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sugar Glider",
+    "base_value": 12,
+    "image_url": "https://elvebredd.com/images/pets/Sugar%20Glider.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mermicorn",
+    "base_value": 12.25,
+    "image_url": "https://elvebredd.com/images/pets/Mermicorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Undead Jousting Horse",
+    "base_value": 10.25,
+    "image_url": "https://elvebredd.com/images/pets/Undead%20Jousting%20Horse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dragonfruit Fox",
+    "base_value": 7,
+    "image_url": "https://elvebredd.com/images/pets/Dragonfruit%20Fox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frost Unicorn",
+    "base_value": 9.75,
+    "image_url": "https://elvebredd.com/images/pets/Frost%20Unicorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Jekyll Hydra",
+    "base_value": 9.5,
+    "image_url": "https://elvebredd.com/images/pets/Jekyll%20Hydra.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dango Penguins",
+    "base_value": 6.5,
+    "image_url": "https://elvebredd.com/images/pets/Dango%20Penguins.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Papa Moose",
+    "base_value": 7.5,
+    "image_url": "https://elvebredd.com/images/pets/Papa%20Moose.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rose Dragon",
+    "base_value": 7.5,
+    "image_url": "https://elvebredd.com/images/pets/Rose%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Strawberry Penguin",
+    "base_value": 8.25,
+    "image_url": "https://elvebredd.com/images/pets/Strawberry%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cupid Dragon",
+    "base_value": 8,
+    "image_url": "https://elvebredd.com/images/pets/Cupid%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bush Elephant",
+    "base_value": 7.5,
+    "image_url": "https://elvebredd.com/images/pets/Bush%20Elephant.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Winged Tiger",
+    "base_value": 7.5,
+    "image_url": "https://elvebredd.com/images/pets/Winged%20Tiger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black-Chested Pheasant",
+    "base_value": 7,
+    "image_url": "https://elvebredd.com/images/pets/Black-Chested%20Pheasant.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Field Mouse",
+    "base_value": 7,
+    "image_url": "https://elvebredd.com/images/pets/Field%20Mouse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frostbite Bear",
+    "base_value": 6.5,
+    "image_url": "https://elvebredd.com/images/pets/Frostbite%20Bear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tió De Nadal",
+    "base_value": 6.25,
+    "image_url": "https://elvebredd.com/images/pets/Ti%C3%B3%20De%20Nadal.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Owlbear",
+    "base_value": 6.5,
+    "image_url": "https://elvebredd.com/images/pets/Owlbear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Mistletroll",
+    "base_value": 6,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Mistletroll.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Moose Calf",
+    "base_value": 6,
+    "image_url": "https://elvebredd.com/images/pets/Moose%20Calf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pineapple Owl",
+    "base_value": 6,
+    "image_url": "https://elvebredd.com/images/pets/Pineapple%20Owl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pirate Ghost Capuchin Monkey",
+    "base_value": 5.75,
+    "image_url": "https://elvebredd.com/images/pets/Pirate%20Ghost%20Capuchin%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frost Fury",
+    "base_value": 5.25,
+    "image_url": "https://elvebredd.com/images/pets/Frost%20Fury.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shark Puppy",
+    "base_value": 6,
+    "image_url": "https://elvebredd.com/images/pets/Shark%20Puppy.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Vampire Dragon",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Vampire%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Nessie",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Nessie.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mechapup",
+    "base_value": 4.75,
+    "image_url": "https://elvebredd.com/images/pets/Mechapup.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Caelum Cervi",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Caelum%20Cervi.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Werewolf",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Werewolf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Amazon",
+    "base_value": 4.25,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Amazon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fallow Deer",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Fallow%20Deer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sugar Axolotl",
+    "base_value": 4.25,
+    "image_url": "https://elvebredd.com/images/pets/Sugar%20Axolotl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Grim Dragon",
+    "base_value": 4.25,
+    "image_url": "https://elvebredd.com/images/pets/Grim%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Emperor Gorilla",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Emperor%20Gorilla.png",
+    "category": "Pet"
+  },
+  {
+    "name": "2D Kitty",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/2D%20Kitty.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Arctic Dusk Dragon",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Arctic%20Dusk%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sakura Spirit",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Sakura%20Spirit.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glacier Kitsune",
+    "base_value": 3.75,
+    "image_url": "https://elvebredd.com/images/pets/Glacier%20Kitsune.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Phantom Dragon",
+    "base_value": 3.75,
+    "image_url": "https://elvebredd.com/images/pets/Phantom%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Giant Gold Scarab",
+    "base_value": 3.5,
+    "image_url": "https://elvebredd.com/images/pets/Giant%20Gold%20Scarab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Albatross",
+    "base_value": 3.5,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Albatross.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lava Dragon",
+    "base_value": 3.5,
+    "image_url": "https://elvebredd.com/images/pets/Lava%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Aurora Fox",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Aurora%20Fox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Halloween White Ghost Dragon",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Halloween%20White%20Ghost%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Midnight Dragon",
+    "base_value": 3,
+    "image_url": "https://elvebredd.com/images/pets/Midnight%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frost Phoenix",
+    "base_value": 2.25,
+    "image_url": "https://elvebredd.com/images/pets/Frost%20Phoenix.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Hamster",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Hamster.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dancing Dragon",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Dancing%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Unicorn",
+    "base_value": 2.5,
+    "image_url": "https://elvebredd.com/images/pets/Unicorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Emberlight",
+    "base_value": 2.5,
+    "image_url": "https://elvebredd.com/images/pets/Emberlight.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Chow-Chow",
+    "base_value": 2.5,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Chow-Chow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Vanilla Penguin",
+    "base_value": 2.25,
+    "image_url": "https://elvebredd.com/images/pets/Vanilla%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Majestic Pony",
+    "base_value": 2.25,
+    "image_url": "https://elvebredd.com/images/pets/Majestic%20Pony.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Ladybug",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Ladybug.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lavender Dragon",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Lavender%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Golem",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Golem.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Peach Owl",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Peach%20Owl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glormy Leo",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Glormy%20Leo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Apple Owl",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Apple%20Owl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond King Penguin",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20King%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Yule Log Dog",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Yule%20Log%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Candy Hare",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Candy%20Hare.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Albino Gorilla",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Albino%20Gorilla.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Hummingbird",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Hummingbird.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Green Butterfly",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Green%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Penguin",
+    "base_value": 1.45,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Queen Bee",
+    "base_value": 1.45,
+    "image_url": "https://elvebredd.com/images/pets/Queen%20Bee.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Naughty Mistletroll",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Naughty%20Mistletroll.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glormy Hound",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Glormy%20Hound.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Astronaut Gorilla",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Astronaut%20Gorilla.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Leviathan",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Leviathan.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ninja Monkey",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Ninja%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hero Gibbon",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Hero%20Gibbon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Scorching Kaijunior",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Scorching%20Kaijunior.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rainbow Dragon",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Rainbow%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Capricorn",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Capricorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Skele-Rex",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Skele-Rex.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Phoenix",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Phoenix.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hippogriff",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Hippogriff.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Axolotl",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Axolotl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Walrus",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Walrus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tree Kangaroo",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Tree%20Kangaroo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Prismatic Butterfly",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Prismatic%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Unicorn",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Unicorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Violet Butterfly",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Violet%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Firefly",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Firefly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Jousting Horse",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Jousting%20Horse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "White Amazon",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/White%20Amazon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cuddly Candle",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Cuddly%20Candle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Corn Doggo",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Corn%20Doggo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Hamster",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Hamster.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cheetah",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Cheetah.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shark",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Shark.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dodo",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Dodo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "T-Rex",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/T-Rex.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Rat",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Rat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Winged Horse",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Winged%20Horse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pirate Hermit Crab",
+    "base_value": 0.95,
+    "image_url": "https://elvebredd.com/images/pets/Pirate%20Hermit%20Crab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cerberus",
+    "base_value": 0.95,
+    "image_url": "https://elvebredd.com/images/pets/Cerberus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kelp Captain",
+    "base_value": 0.95,
+    "image_url": "https://elvebredd.com/images/pets/Kelp%20Captain.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Moonbeam Butterfly",
+    "base_value": 0.9,
+    "image_url": "https://elvebredd.com/images/pets/Moonbeam%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Octopus",
+    "base_value": 0.9,
+    "image_url": "https://elvebredd.com/images/pets/Octopus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Peacock",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Peacock.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Naga Dragon",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Naga%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Volcanic Rhino",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Volcanic%20Rhino.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden King Penguin",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20King%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Widow",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Widow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Capuchin Monkey",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Capuchin%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Spinosaurus",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Spinosaurus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Goldhorn",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Goldhorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Dragon",
+    "base_value": 0.8,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cactus Friend",
+    "base_value": 0.8,
+    "image_url": "https://elvebredd.com/images/pets/Cactus%20Friend.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gargoyle",
+    "base_value": 0.8,
+    "image_url": "https://elvebredd.com/images/pets/Gargoyle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Chow-Chow",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Chow-Chow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chocolate Chow-Chow",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Chocolate%20Chow-Chow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Green-Chested Pheasant",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Green-Chested%20Pheasant.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lava Wolf",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Lava%20Wolf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Squid",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Squid.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chameleon",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Chameleon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shetland Pony Light Brown",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Shetland%20Pony%20Light%20Brown.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Ladybug",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Ladybug.png",
+    "category": "Pet"
+  },
+  {
+    "name": "King Bee",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/King%20Bee.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sunrise Duckling",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Sunrise%20Duckling.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Albatross",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Albatross.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dimorphodon",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Dimorphodon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Unicorn",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Unicorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Criosphinx",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Criosphinx.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snow Owl",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Snow%20Owl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Guardian Lion",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Guardian%20Lion.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Griffin",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Griffin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gilded Snake",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Gilded%20Snake.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Hummingbird",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Hummingbird.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Influencer Gibbon",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Influencer%20Gibbon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Priceless Shrimp",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Priceless%20Shrimp.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hawk",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Hawk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Alicorn",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Alicorn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mushroom Friend",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Mushroom%20Friend.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Princess Capuchin Monkey",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Princess%20Capuchin%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Winter Buck",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Winter%20Buck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Berry Cool Cube",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Berry%20Cool%20Cube.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chimera",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Chimera.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Billy Goat",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Billy%20Goat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fleur De Ice",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Fleur%20De%20Ice.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Baku",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Baku.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Scarebear",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Scarebear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dire Stag",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Dire%20Stag.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Maneki-Neko",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Maneki-Neko.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sunglider",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Sunglider.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Robo Dog",
+    "base_value": 0.55,
+    "image_url": "https://elvebredd.com/images/pets/Robo%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Moth Dragon",
+    "base_value": 0.55,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Moth%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Dragon",
+    "base_value": 0.55,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ancient Dragon",
+    "base_value": 0.55,
+    "image_url": "https://elvebredd.com/images/pets/Ancient%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Striped Eggy",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Striped%20Eggy.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Scarecrow Crow",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Scarecrow%20Crow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Super Saru",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Super%20Saru.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Betta Fish",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Betta%20Fish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cobra",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Cobra.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Halloween Golden Mummy Cat",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Halloween%20Golden%20Mummy%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kitsune",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Kitsune.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frostclaw",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Frostclaw.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Mahi Mahi",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Mahi%20Mahi.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dimension Drifter",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Dimension%20Drifter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rosy Maple Moth",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Rosy%20Maple%20Moth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kraken",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Kraken.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Primal Kaijunior",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Primal%20Kaijunior.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Evil Chick",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Evil%20Chick.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mecha Meow",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Mecha%20Meow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kitty Bat",
+    "base_value": 0.55,
+    "image_url": "https://elvebredd.com/images/pets/Kitty%20Bat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dragon",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Coconut Friend",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Coconut%20Friend.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Griffin",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Griffin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Angus Bull",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Angus%20Bull.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Villain Gibbon",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Villain%20Gibbon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Slimingo",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Slimingo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Griffin",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Griffin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lunar Moon Bear",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Lunar%20Moon%20Bear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Quetzalcoatl",
+    "base_value": 0.32,
+    "image_url": "https://elvebredd.com/images/pets/Quetzalcoatl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Temple Friend",
+    "base_value": 0.32,
+    "image_url": "https://elvebredd.com/images/pets/Temple%20Friend.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Christmas Spirit",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Christmas%20Spirit.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glormy Dolphin",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Glormy%20Dolphin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dragonfly",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Dragonfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lunar Gold Tiger",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Lunar%20Gold%20Tiger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Metal Ox",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Metal%20Ox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Zodiac Minion Chick",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Zodiac%20Minion%20Chick.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dracula Parrot",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Dracula%20Parrot.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Tortoise Beetle",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Tortoise%20Beetle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hedgehog",
+    "base_value": 53.5,
+    "image_url": "https://elvebredd.com/images/pets/Hedgehog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dalmatian",
+    "base_value": 44.5,
+    "image_url": "https://elvebredd.com/images/pets/Dalmatian.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Flamingo",
+    "base_value": 18.25,
+    "image_url": "https://elvebredd.com/images/pets/Flamingo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Crocodile",
+    "base_value": 12,
+    "image_url": "https://elvebredd.com/images/pets/Crocodile.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lion",
+    "base_value": 11,
+    "image_url": "https://elvebredd.com/images/pets/Lion.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Arctic Fox",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Arctic%20Fox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Platypus",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Platypus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "African Wild Dog",
+    "base_value": 66,
+    "image_url": "https://elvebredd.com/images/pets/African%20Wild%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pelican",
+    "base_value": 25.5,
+    "image_url": "https://elvebredd.com/images/pets/Pelican.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Peppermint Penguin",
+    "base_value": 21,
+    "image_url": "https://elvebredd.com/images/pets/Peppermint%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mini Pig",
+    "base_value": 22,
+    "image_url": "https://elvebredd.com/images/pets/Mini%20Pig.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cabbit",
+    "base_value": 14.75,
+    "image_url": "https://elvebredd.com/images/pets/Cabbit.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Caterpillar",
+    "base_value": 13.75,
+    "image_url": "https://elvebredd.com/images/pets/Caterpillar.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Irish Water Spaniel",
+    "base_value": 8.5,
+    "image_url": "https://elvebredd.com/images/pets/Irish%20Water%20Spaniel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Goat",
+    "base_value": 7.75,
+    "image_url": "https://elvebredd.com/images/pets/Goat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lion Cub",
+    "base_value": 6.75,
+    "image_url": "https://elvebredd.com/images/pets/Lion%20Cub.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Alpaca",
+    "base_value": 7.25,
+    "image_url": "https://elvebredd.com/images/pets/Alpaca.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Jellyfish",
+    "base_value": 5.5,
+    "image_url": "https://elvebredd.com/images/pets/Jellyfish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sheeeeep",
+    "base_value": 5.5,
+    "image_url": "https://elvebredd.com/images/pets/Sheeeeep.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Siamese Cat",
+    "base_value": 4.75,
+    "image_url": "https://elvebredd.com/images/pets/Siamese%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bald Eagle",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Bald%20Eagle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tortuga De La Isla",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Tortuga%20De%20La%20Isla.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Zombie Buffalo",
+    "base_value": 4.25,
+    "image_url": "https://elvebredd.com/images/pets/Zombie%20Buffalo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Many Mackerel",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Many%20Mackerel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Puffin",
+    "base_value": 4.25,
+    "image_url": "https://elvebredd.com/images/pets/Puffin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Purple Butterfly",
+    "base_value": 4.25,
+    "image_url": "https://elvebredd.com/images/pets/Purple%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Groundhog",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Groundhog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sea Slug",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Sea%20Slug.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Alley Cat",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Alley%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glacier Moth",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Glacier%20Moth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Christmas Pudding Pup",
+    "base_value": 3.5,
+    "image_url": "https://elvebredd.com/images/pets/Christmas%20Pudding%20Pup.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Honey Badger",
+    "base_value": 3.75,
+    "image_url": "https://elvebredd.com/images/pets/Honey%20Badger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kookaburra",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Kookaburra.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Happy Clam",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Happy%20Clam.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tri-Horned Treehopper",
+    "base_value": 3,
+    "image_url": "https://elvebredd.com/images/pets/Tri-Horned%20Treehopper.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Flaming Fox",
+    "base_value": 2.5,
+    "image_url": "https://elvebredd.com/images/pets/Flaming%20Fox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Slime",
+    "base_value": 2.25,
+    "image_url": "https://elvebredd.com/images/pets/Slime.png",
+    "category": "Pet"
+  },
+  {
+    "name": "German Shepherd",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/German%20Shepherd.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Llama",
+    "base_value": 2.25,
+    "image_url": "https://elvebredd.com/images/pets/Llama.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Turkey",
+    "base_value": 2.25,
+    "image_url": "https://elvebredd.com/images/pets/Turkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Wolf",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Wolf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Cream Hermit Crab",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Cream%20Hermit%20Crab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wood Pigeon",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Wood%20Pigeon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lamb",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Lamb.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ram",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Ram.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Orange Butterfly",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Orange%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Corgi",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Corgi.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ghost Bunny",
+    "base_value": 0.95,
+    "image_url": "https://elvebredd.com/images/pets/Ghost%20Bunny.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bunny Swirl",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Bunny%20Swirl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "White Sand Dollar",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/White%20Sand%20Dollar.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Red Sand Dollar",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Red%20Sand%20Dollar.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mini Schnauzer",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Mini%20Schnauzer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snowball Pet",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Snowball%20Pet.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Toy Monkey",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Toy%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snow Monkey",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Snow%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chef Gorilla",
+    "base_value": 0.9,
+    "image_url": "https://elvebredd.com/images/pets/Chef%20Gorilla.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gaelic Fae",
+    "base_value": 0.95,
+    "image_url": "https://elvebredd.com/images/pets/Gaelic%20Fae.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mr Whiskerpips",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Mr%20Whiskerpips.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Yeti",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Yeti.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Puffer Fish",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Puffer%20Fish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Business Monkey",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Business%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Palace Spaniel",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Palace%20Spaniel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Binturong",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Binturong.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wooly Rhino",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Wooly%20Rhino.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frostbite Cub",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Frostbite%20Cub.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Brown Springer Spaniel",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Brown%20Springer%20Spaniel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Springer Spaniel",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Springer%20Spaniel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Nautilus",
+    "base_value": 0.42,
+    "image_url": "https://elvebredd.com/images/pets/Nautilus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Panda",
+    "base_value": 0.42,
+    "image_url": "https://elvebredd.com/images/pets/Panda.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Giant Blue Scarab",
+    "base_value": 0.42,
+    "image_url": "https://elvebredd.com/images/pets/Giant%20Blue%20Scarab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Zombie Wolf",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Zombie%20Wolf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pretty Pony",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Pretty%20Pony.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Ringed Octopus",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Ringed%20Octopus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snowball Pug",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Snowball%20Pug.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Karate Gorilla",
+    "base_value": 0.38,
+    "image_url": "https://elvebredd.com/images/pets/Karate%20Gorilla.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Merry Mistletroll",
+    "base_value": 0.38,
+    "image_url": "https://elvebredd.com/images/pets/Merry%20Mistletroll.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pomeranian",
+    "base_value": 0.38,
+    "image_url": "https://elvebredd.com/images/pets/Pomeranian.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Horse",
+    "base_value": 0.37,
+    "image_url": "https://elvebredd.com/images/pets/Horse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tan Chow-Chow",
+    "base_value": 0.37,
+    "image_url": "https://elvebredd.com/images/pets/Tan%20Chow-Chow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Green Amazon",
+    "base_value": 0.37,
+    "image_url": "https://elvebredd.com/images/pets/Green%20Amazon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Scarecrow Cat",
+    "base_value": 0.36,
+    "image_url": "https://elvebredd.com/images/pets/Scarecrow%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Giant Black Scarab",
+    "base_value": 0.36,
+    "image_url": "https://elvebredd.com/images/pets/Giant%20Black%20Scarab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Water Rabbit",
+    "base_value": 0.34,
+    "image_url": "https://elvebredd.com/images/pets/Water%20Rabbit.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Momma Moose",
+    "base_value": 0.33,
+    "image_url": "https://elvebredd.com/images/pets/Momma%20Moose.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hamster",
+    "base_value": 0.33,
+    "image_url": "https://elvebredd.com/images/pets/Hamster.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Orca",
+    "base_value": 0.33,
+    "image_url": "https://elvebredd.com/images/pets/Orca.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Flower Power Duckling",
+    "base_value": 0.32,
+    "image_url": "https://elvebredd.com/images/pets/Flower%20Power%20Duckling.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rooster",
+    "base_value": 0.32,
+    "image_url": "https://elvebredd.com/images/pets/Rooster.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Koala",
+    "base_value": 0.32,
+    "image_url": "https://elvebredd.com/images/pets/Koala.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Albino Bat",
+    "base_value": 0.32,
+    "image_url": "https://elvebredd.com/images/pets/Albino%20Bat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "St Bernard",
+    "base_value": 0.31,
+    "image_url": "https://elvebredd.com/images/pets/St%20Bernard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Highland Cow",
+    "base_value": 0.31,
+    "image_url": "https://elvebredd.com/images/pets/Highland%20Cow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Vermilion Butterfly",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Vermilion%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Brown-Chested Pheasant",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Brown-Chested%20Pheasant.png",
+    "category": "Pet"
+  },
+  {
+    "name": "King Penguin",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/King%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Toasty Red Panda",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Toasty%20Red%20Panda.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Space Whale",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Space%20Whale.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frog",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Frog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Red Squirrel",
+    "base_value": 0.29,
+    "image_url": "https://elvebredd.com/images/pets/Red%20Squirrel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Burning Bunny",
+    "base_value": 0.29,
+    "image_url": "https://elvebredd.com/images/pets/Burning%20Bunny.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Choco Penguin",
+    "base_value": 0.26,
+    "image_url": "https://elvebredd.com/images/pets/Choco%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Nightmare Owl",
+    "base_value": 0.26,
+    "image_url": "https://elvebredd.com/images/pets/Nightmare%20Owl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Evil Basilisk",
+    "base_value": 0.26,
+    "image_url": "https://elvebredd.com/images/pets/Evil%20Basilisk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Evil Chickatrice",
+    "base_value": 0.26,
+    "image_url": "https://elvebredd.com/images/pets/Evil%20Chickatrice.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Icy Porcupine",
+    "base_value": 0.26,
+    "image_url": "https://elvebredd.com/images/pets/Icy%20Porcupine.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gingerbread Hare",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Gingerbread%20Hare.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pumpkin Friend",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Pumpkin%20Friend.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Clementine Owl",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Clementine%20Owl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Penguin",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Clownfish",
+    "base_value": 0.24,
+    "image_url": "https://elvebredd.com/images/pets/Clownfish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Halloween White Skeleton Dog",
+    "base_value": 0.24,
+    "image_url": "https://elvebredd.com/images/pets/Halloween%20White%20Skeleton%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frozen Penguin",
+    "base_value": 0.24,
+    "image_url": "https://elvebredd.com/images/pets/Frozen%20Penguin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Starfish",
+    "base_value": 0.23,
+    "image_url": "https://elvebredd.com/images/pets/Starfish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Partridge",
+    "base_value": 0.23,
+    "image_url": "https://elvebredd.com/images/pets/Partridge.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Seagull",
+    "base_value": 0.23,
+    "image_url": "https://elvebredd.com/images/pets/Seagull.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snowy Mammoth",
+    "base_value": 0.22,
+    "image_url": "https://elvebredd.com/images/pets/Snowy%20Mammoth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Seafoam Butterfly",
+    "base_value": 0.22,
+    "image_url": "https://elvebredd.com/images/pets/Seafoam%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Headless Horse",
+    "base_value": 0.22,
+    "image_url": "https://elvebredd.com/images/pets/Headless%20Horse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fanghorn Tortoise",
+    "base_value": 0.22,
+    "image_url": "https://elvebredd.com/images/pets/Fanghorn%20Tortoise.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Elasmosaurus",
+    "base_value": 0.21,
+    "image_url": "https://elvebredd.com/images/pets/Elasmosaurus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mrs Whiskerpips",
+    "base_value": 0.21,
+    "image_url": "https://elvebredd.com/images/pets/Mrs%20Whiskerpips.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Albatross",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Albatross.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Candy Cane Snail",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Candy%20Cane%20Snail.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kage Crow",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Kage%20Crow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mirai Moth",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Mirai%20Moth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Indian Flying Fox",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Indian%20Flying%20Fox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gingerbread Reindeer",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Gingerbread%20Reindeer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sloth",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Sloth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wildfire Hawk",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Wildfire%20Hawk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Jaguar",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Jaguar.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hummingbird",
+    "base_value": 0.19,
+    "image_url": "https://elvebredd.com/images/pets/Hummingbird.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bauble Buddies",
+    "base_value": 0.19,
+    "image_url": "https://elvebredd.com/images/pets/Bauble%20Buddies.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Magma Moose",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Magma%20Moose.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Magma Snail",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Magma%20Snail.png",
+    "category": "Pet"
+  },
+  {
+    "name": "The Black Dog",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/The%20Black%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rice Cake Rabbit",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Rice%20Cake%20Rabbit.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Scarlet Butterfly",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Scarlet%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sprout Snail",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Sprout%20Snail.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Skunk",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Skunk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Macaque",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Macaque.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Peregrine Falcon",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Peregrine%20Falcon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ghostly Cat",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Ghostly%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Winter Doe",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Winter%20Doe.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Maine Coon",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Maine%20Coon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wyvern",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Wyvern.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Deinonychus",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Deinonychus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sabertooth",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Sabertooth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Spider Crab",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Spider%20Crab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Water Moon Bear",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Water%20Moon%20Bear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Toxic Kaijunior",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Toxic%20Kaijunior.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ringmaster Gibbon",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Ringmaster%20Gibbon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Officer Gibbon",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Officer%20Gibbon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Firefighter Gibbon",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Firefighter%20Gibbon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pink Betta Fish",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Pink%20Betta%20Fish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Praying Mantis",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Praying%20Mantis.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Inmate Capuchin Monkey",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Inmate%20Capuchin%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Preppy Capuchin Monkey",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Preppy%20Capuchin%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cozy Mistletroll",
+    "base_value": 0.16,
+    "image_url": "https://elvebredd.com/images/pets/Cozy%20Mistletroll.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Seabed Creeper",
+    "base_value": 0.16,
+    "image_url": "https://elvebredd.com/images/pets/Seabed%20Creeper.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ladybug",
+    "base_value": 0.16,
+    "image_url": "https://elvebredd.com/images/pets/Ladybug.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Puptune",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Puptune.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gingerbread Mouse",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Gingerbread%20Mouse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cold Cube",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Cold%20Cube.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hydra",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Hydra.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Angus Calf",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Angus%20Calf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chilling Spider",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Chilling%20Spider.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Manta Ray",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Manta%20Ray.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Skelebat",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Skelebat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Starmite",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Starmite.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Vulture",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Vulture.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Roadrunner",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Roadrunner.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Deathstalker Scorpion",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Deathstalker%20Scorpion.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lionfish",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Lionfish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Floral Eggy",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Floral%20Eggy.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bee",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Bee.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ornate Horned Frog",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Ornate%20Horned%20Frog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shetland Pony White",
+    "base_value": 0.14,
+    "image_url": "https://elvebredd.com/images/pets/Shetland%20Pony%20White.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Toucan",
+    "base_value": 0.14,
+    "image_url": "https://elvebredd.com/images/pets/Toucan.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Komodo Dragon",
+    "base_value": 0.14,
+    "image_url": "https://elvebredd.com/images/pets/Komodo%20Dragon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gold Mahi Mahi",
+    "base_value": 0.14,
+    "image_url": "https://elvebredd.com/images/pets/Gold%20Mahi%20Mahi.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pine Marten",
+    "base_value": 0.14,
+    "image_url": "https://elvebredd.com/images/pets/Pine%20Marten.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Onza",
+    "base_value": 0.14,
+    "image_url": "https://elvebredd.com/images/pets/Onza.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ginger Cat",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Ginger%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Corgi",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Corgi.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Robot",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Robot.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Grinmoire",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Grinmoire.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Swordfish",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Swordfish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Red Crowned Crane",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Red%20Crowned%20Crane.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Salamander",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Salamander.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Trapdoor Snail",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Trapdoor%20Snail.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lammergeier",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Lammergeier.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Kite",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Kite.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Badger",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Badger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shiba Inu",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Shiba%20Inu.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Red Panda",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Red%20Panda.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Grave Owl",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Grave%20Owl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ghost Chick",
+    "base_value": 0.11,
+    "image_url": "https://elvebredd.com/images/pets/Ghost%20Chick.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ehecatl",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Ehecatl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ribbon Seal",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Ribbon%20Seal.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kelp Hunter",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Kelp%20Hunter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lunar White Tiger",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Lunar%20White%20Tiger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Persian Cat",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Persian%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lunar Ox",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Lunar%20Ox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cow",
+    "base_value": 24,
+    "image_url": "https://elvebredd.com/images/pets/Cow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Elephant",
+    "base_value": 15,
+    "image_url": "https://elvebredd.com/images/pets/Elephant.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pig",
+    "base_value": 6,
+    "image_url": "https://elvebredd.com/images/pets/Pig.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shrew",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Shrew.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hyena",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Hyena.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Goose",
+    "base_value": 14,
+    "image_url": "https://elvebredd.com/images/pets/Goose.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Border Collie",
+    "base_value": 11.5,
+    "image_url": "https://elvebredd.com/images/pets/Border%20Collie.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ring-Tailed Lemur",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Ring-Tailed%20Lemur.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hare",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Hare.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Brown Bear",
+    "base_value": 4.25,
+    "image_url": "https://elvebredd.com/images/pets/Brown%20Bear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Polar Bear",
+    "base_value": 4.25,
+    "image_url": "https://elvebredd.com/images/pets/Polar%20Bear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Giant Anteater",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Giant%20Anteater.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mule",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Mule.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Munchkin Cat",
+    "base_value": 2.5,
+    "image_url": "https://elvebredd.com/images/pets/Munchkin%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Husky",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Husky.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Swan",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Swan.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rhino",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Rhino.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Reindeer",
+    "base_value": 0.8,
+    "image_url": "https://elvebredd.com/images/pets/Reindeer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Leopard Shark",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Leopard%20Shark.png",
+    "category": "Pet"
+  },
+  {
+    "name": "French Bulldog",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/French%20Bulldog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Evil Rock",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Evil%20Rock.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ghost Dog",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Ghost%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lynx",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Lynx.png",
+    "category": "Pet"
+  },
+  {
+    "name": "English Sheepdog",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/English%20Sheepdog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kiwi",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Kiwi.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Great Pyrenees",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Great%20Pyrenees.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Happy Duckling",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Happy%20Duckling.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Irish Elk",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Irish%20Elk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Musk Ox",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Musk%20Ox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Castle Hermit Crab",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Castle%20Hermit%20Crab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Flaming Zebra",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Flaming%20Zebra.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Leopard Cat",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Leopard%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pudding Cat",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Pudding%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Summer Walrus",
+    "base_value": 0.26,
+    "image_url": "https://elvebredd.com/images/pets/Summer%20Walrus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Koi Carp",
+    "base_value": 0.26,
+    "image_url": "https://elvebredd.com/images/pets/Koi%20Carp.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gecko",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Gecko.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chipmunk",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Chipmunk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tarsier",
+    "base_value": 0.24,
+    "image_url": "https://elvebredd.com/images/pets/Tarsier.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Moon Rabbit",
+    "base_value": 0.24,
+    "image_url": "https://elvebredd.com/images/pets/Moon%20Rabbit.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hippo",
+    "base_value": 0.21,
+    "image_url": "https://elvebredd.com/images/pets/Hippo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shiver Wolf",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Shiver%20Wolf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cow Calf",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Cow%20Calf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Moonlight Moth",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Moonlight%20Moth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tasmanian Devil",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Tasmanian%20Devil.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bird Of Paradise",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Bird%20Of%20Paradise.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Love Bird",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Love%20Bird.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Goldfish",
+    "base_value": 0.17,
+    "image_url": "https://elvebredd.com/images/pets/Goldfish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sasquatch",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Sasquatch.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sweetheart Rat",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Sweetheart%20Rat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Toy Poodle",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Toy%20Poodle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ostrich",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Ostrich.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Longhorn Cow",
+    "base_value": 0.14,
+    "image_url": "https://elvebredd.com/images/pets/Longhorn%20Cow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Halloween Evil Dachshund",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Halloween%20Evil%20Dachshund.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Subzero Scorpion",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Subzero%20Scorpion.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cassowary",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Cassowary.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Steppe Lion",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Steppe%20Lion.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ibex",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Ibex.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Nebula Snake",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Nebula%20Snake.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blossom Snake",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Blossom%20Snake.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Prism Snake",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Prism%20Snake.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tree Sasquatch",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Tree%20Sasquatch.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Feesh",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Feesh.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mecha R4BBIT",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Mecha%20R4BBIT.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Nutcracker Squirrel",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Nutcracker%20Squirrel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Woolly Mammoth",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Woolly%20Mammoth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Turtle Doves",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Turtle%20Doves.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Eggnog Hare",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Eggnog%20Hare.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Punk Pony",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Punk%20Pony.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Yellow Butterfly",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Yellow%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bloodhound",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Bloodhound.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Red Fox",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Red%20Fox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Starhopper",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Starhopper.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Singularity Pisces",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Singularity%20Pisces.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Singularity Beetle",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Singularity%20Beetle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Scarecrow Horse",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Scarecrow%20Horse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Marabou Stork",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Marabou%20Stork.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Clover Cow",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Clover%20Cow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kappakid",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Kappakid.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rat",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Rat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Basilisk",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Basilisk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tarantula",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Tarantula.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Undead Elk",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Undead%20Elk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Emu",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Emu.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Samoyed",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Samoyed.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Emperor Shrimp",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Emperor%20Shrimp.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Cube",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Cube.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Winter Fawn",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Winter%20Fawn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ocelot",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Ocelot.png",
+    "category": "Pet"
+  },
+  {
+    "name": "DJ Snooze",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/DJ%20Snooze.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kelp Raider",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Kelp%20Raider.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Indian Leopard",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Indian%20Leopard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cherub Chipmunk",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Cherub%20Chipmunk.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pterodactyl",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Pterodactyl.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dilophosaurus",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Dilophosaurus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sneak Weasel",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Sneak%20Weasel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Narwhal",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Narwhal.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Seahorse",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Seahorse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Zebra",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Zebra.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Australian Kelpie",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Australian%20Kelpie.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Monkey",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ibis",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Ibis.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Halloween White Mummy Cat",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Halloween%20White%20Mummy%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Amber Butterfly",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Amber%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Jay",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Jay.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Moonpine",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Moonpine.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Oryx",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Oryx.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Water Opossum",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Water%20Opossum.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Thorny Devil",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Thorny%20Devil.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sea Angel",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Sea%20Angel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Poison Dart Frog",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Poison%20Dart%20Frog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Capuchin Monkey",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Capuchin%20Monkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gorilla",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Gorilla.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Merhorse",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Merhorse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ghost Wolf",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Ghost%20Wolf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ankylosaurus",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Ankylosaurus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dotted Eggy",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Dotted%20Eggy.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Moon Bear",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Moon%20Bear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Woodpecker",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Woodpecker.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Abyssinian Cat",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Abyssinian%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Zombie Chick",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Zombie%20Chick.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shetland Pony Dark Brown",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Shetland%20Pony%20Dark%20Brown.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Weevil",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Weevil.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chanekeh",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Chanekeh.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Zeopod",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Zeopod.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Angus Cow",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Angus%20Cow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Orange Betta Fish",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Orange%20Betta%20Fish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bunny",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Bunny.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rabbit",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Rabbit.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wren",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Wren.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Parakeet",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Parakeet.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Orangutan",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Orangutan.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gibbon",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Gibbon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snow Puma",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Snow%20Puma.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Beaver",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Beaver.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lunar Tiger",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Lunar%20Tiger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ox",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Ox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Dog",
+    "base_value": 12.5,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pink Cat",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Pink%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Meerkat",
+    "base_value": 5.25,
+    "image_url": "https://elvebredd.com/images/pets/Meerkat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wild Boar",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Wild%20Boar.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Silly Duck",
+    "base_value": 1.4,
+    "image_url": "https://elvebredd.com/images/pets/Silly%20Duck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Capybara",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Capybara.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Panther",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Panther.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Drake",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Drake.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Harp Seal",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Harp%20Seal.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wolf",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Wolf.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Quokka",
+    "base_value": 0.27,
+    "image_url": "https://elvebredd.com/images/pets/Quokka.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Eggnog Dog",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Eggnog%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Amami Rabbit",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Amami%20Rabbit.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glyptodon",
+    "base_value": 0.16,
+    "image_url": "https://elvebredd.com/images/pets/Glyptodon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Raccoon",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Raccoon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Therapy Dog",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Therapy%20Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tanuki",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Tanuki.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Canadian Goose",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Canadian%20Goose.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lobster",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Lobster.png",
+    "category": "Pet"
+  },
+  {
+    "name": "2021 Uplift Butterfly",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/2021%20Uplift%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "2022 Uplift Butterfly",
+    "base_value": 0.11,
+    "image_url": "https://elvebredd.com/images/pets/2022%20Uplift%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snow Leopard",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Snow%20Leopard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snowman",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Snowman.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Scarecrow",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Scarecrow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Magpie",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Magpie.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ermine",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Ermine.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Eel",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Eel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Warthog",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Warthog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cute-A-Cabra",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Cute-A-Cabra.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rock",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Rock.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chickatrice",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Chickatrice.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bat",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Bat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Old King Coal",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Old%20King%20Coal.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Birthday Butterfly 2023",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Birthday%20Butterfly%202023.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Birthday Butterfly 2024",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Birthday%20Butterfly%202024.png",
+    "category": "Pet"
+  },
+  {
+    "name": "2025 Birthday Butterfly",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/2025%20Birthday%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Crab",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Crab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dolphin",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Dolphin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Triceratops",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Triceratops.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Stegosaurus",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Stegosaurus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Arctic Hare",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Arctic%20Hare.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fossa",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Fossa.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dingo",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Dingo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mistletroll",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Mistletroll.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Arctic Tern",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Arctic%20Tern.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Possum",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Possum.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rodeo Bull",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Rodeo%20Bull.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sea Skeleton Panda",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Sea%20Skeleton%20Panda.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dracula Fish",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Dracula%20Fish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Slug",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Slug.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Poodle",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Poodle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frogspawn",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Frogspawn.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kirin",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Kirin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kelp Crewmate",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Kelp%20Crewmate.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Patchy Bear",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Patchy%20Bear.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Humbug",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Humbug.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kaijunior",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Kaijunior.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hammerhead Shark",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Hammerhead%20Shark.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mole",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Mole.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rhino Beetle",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Rhino%20Beetle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hermit Crab",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Hermit%20Crab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Jumping Spider",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Jumping%20Spider.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rattlesnake",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Rattlesnake.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gila Monster",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Gila%20Monster.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Yellow-Lipped Sea Krait",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Yellow-Lipped%20Sea%20Krait.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Banded Palm Civet",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Banded%20Palm%20Civet.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Halloween Blue Scorpion",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Halloween%20Blue%20Scorpion.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Marlin",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Marlin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snorgle",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Snorgle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Red Cardinal",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Red%20Cardinal.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Velociraptor",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Velociraptor.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shih Tzu",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Shih%20Tzu.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tawny Frogmouth",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Tawny%20Frogmouth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rock Pigeon",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Rock%20Pigeon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Angler Fish",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Angler%20Fish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Borhyaena Gigantica",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Borhyaena%20Gigantica.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Muskrat",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Muskrat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Halloween Black Mummy Cat",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Halloween%20Black%20Mummy%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mahi Mahi",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Mahi%20Mahi.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tree Frog",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Tree%20Frog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Donkey",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Donkey.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snow Cat",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Snow%20Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fennec Fox",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Fennec%20Fox.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chocolate Labrador",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Chocolate%20Labrador.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Puma",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Puma.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Camel",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Camel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chicken",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Chicken.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chick",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Chick.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ash Zebra",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Ash%20Zebra.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Classic Teapot",
+    "base_value": 0.18,
+    "image_url": "https://elvebredd.com/images/pets/Classic%20Teapot.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Robin",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Robin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Liger",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Liger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dugong",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Dugong.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Maleo Bird",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Maleo%20Bird.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Coyote",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Coyote.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ghost",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Ghost.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Urchin",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Urchin.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Walrus",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Walrus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Butterfly",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Butterfly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tasmanian Tiger",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Tasmanian%20Tiger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ground Sloth",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Ground%20Sloth.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mongoose",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Mongoose.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cockroach",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Cockroach.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hopbop",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Hopbop.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tegu",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Tegu.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bakeneko",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Bakeneko.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Island Tarsier",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Island%20Tarsier.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Stingray",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Stingray.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Aye Aye",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Aye%20Aye.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Malaysian Tapir",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Malaysian%20Tapir.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wolpertinger",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Wolpertinger.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bullfrog",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Bullfrog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ratatoskr",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Ratatoskr.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Brachiosaurus",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Brachiosaurus.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Kid Goat",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Kid%20Goat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bandicoot",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Bandicoot.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Flying Fish",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Flying%20Fish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Armadillo",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Armadillo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Show Pony",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Show%20Pony.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Garden Snake",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Garden%20Snake.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Frankenfeline",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Frankenfeline.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bali Starling",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Bali%20Starling.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bluebottle Fly",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Bluebottle%20Fly.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Japanese Snow Fairy",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Japanese%20Snow%20Fairy.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Angelfish",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Angelfish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sandfish",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Sandfish.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Beluga Whale",
+    "base_value": 0.03,
+    "image_url": "",
+    "category": "Pet"
+  },
+  {
+    "name": "Mosquito",
+    "base_value": 0.03,
+    "image_url": "",
+    "category": "Pet"
+  },
+  {
+    "name": "Sado Mole",
+    "base_value": 0.03,
+    "image_url": "",
+    "category": "Pet"
+  },
+  {
+    "name": "Piranha",
+    "base_value": 0.03,
+    "image_url": "",
+    "category": "Pet"
+  },
+  {
+    "name": "Mouse",
+    "base_value": 0.02,
+    "image_url": "https://elvebredd.com/images/pets/Mouse.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Buffalo",
+    "base_value": 0.02,
+    "image_url": "https://elvebredd.com/images/pets/Buffalo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Otter",
+    "base_value": 0.02,
+    "image_url": "https://elvebredd.com/images/pets/Otter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dog",
+    "base_value": 0.02,
+    "image_url": "https://elvebredd.com/images/pets/Dog.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cat",
+    "base_value": 0.02,
+    "image_url": "https://elvebredd.com/images/pets/Cat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ant",
+    "base_value": 0.02,
+    "image_url": "https://elvebredd.com/images/pets/Ant.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Safari Egg",
+    "base_value": 173,
+    "image_url": "https://elvebredd.com/images/pets/Safari%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Farm Egg",
+    "base_value": 73,
+    "image_url": "https://elvebredd.com/images/pets/Farm%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Jungle Egg",
+    "base_value": 60,
+    "image_url": "https://elvebredd.com/images/pets/Jungle%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Christmas Egg",
+    "base_value": 14.5,
+    "image_url": "https://elvebredd.com/images/pets/Christmas%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Aussie Egg",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Aussie%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Diamond Egg",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Diamond%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Desert Egg",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Desert%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Golden Egg",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Golden%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fossil Egg",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Fossil%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ocean Egg",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Ocean%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Moon Egg",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Moon%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Aztec Egg",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Aztec%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mythic Egg",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Mythic%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fool Egg",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Fool%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Urban Egg",
+    "base_value": 0.32,
+    "image_url": "https://elvebredd.com/images/pets/Urban%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Crystal Egg",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Crystal%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Woodland Egg",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Woodland%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Japan Egg",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Japan%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Moon Egg",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Moon%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Danger Egg",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Danger%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Southeast Asia Egg",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Southeast%20Asia%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Desert Egg",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Desert%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Garden Egg",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Garden%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Zodiac Minion Egg",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Zodiac%20Minion%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Egg",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Aztec Egg",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Aztec%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Egg",
+    "base_value": 44,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pink Egg",
+    "base_value": 32,
+    "image_url": "https://elvebredd.com/images/pets/Pink%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Retired Egg",
+    "base_value": 0.09,
+    "image_url": "https://elvebredd.com/images/pets/Retired%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pet Egg",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Pet%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Christmas Future Egg",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Christmas%20Future%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Easter 2020 Egg",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Easter%202020%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cracked Egg",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Cracked%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Basic Egg",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Basic%20Egg.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rocket Sled",
+    "base_value": 28,
+    "image_url": "https://elvebredd.com/images/pets/Rocket%20Sled.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cloud",
+    "base_value": 32,
+    "image_url": "https://elvebredd.com/images/pets/Cloud.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Giant Cheetah Mount",
+    "base_value": 12,
+    "image_url": "https://elvebredd.com/images/pets/Giant%20Cheetah%20Mount.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bathtub",
+    "base_value": 6,
+    "image_url": "https://elvebredd.com/images/pets/Bathtub.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bunny Carriage",
+    "base_value": 5.5,
+    "image_url": "https://elvebredd.com/images/pets/Bunny%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Mono-Moped",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Mono-Moped.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dragon Train",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Dragon%20Train.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Unicorn Cycle",
+    "base_value": 4,
+    "image_url": "https://elvebredd.com/images/pets/Unicorn%20Cycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Horse and Carriage",
+    "base_value": 3.75,
+    "image_url": "https://elvebredd.com/images/pets/Horse%20and%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Crescent Moon Car",
+    "base_value": 3.5,
+    "image_url": "https://elvebredd.com/images/pets/Crescent%20Moon%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pumpkin Carriage",
+    "base_value": 3,
+    "image_url": "https://elvebredd.com/images/pets/Pumpkin%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Horse Cycle",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Horse%20Cycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hot Tub Muscle Car",
+    "base_value": 2.25,
+    "image_url": "https://elvebredd.com/images/pets/Hot%20Tub%20Muscle%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Flower Truck",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Flower%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Monocycle",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Monocycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Donut Cycle",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Donut%20Cycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dogmobile",
+    "base_value": 1.5,
+    "image_url": "https://elvebredd.com/images/pets/Dogmobile.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Street Racer",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Street%20Racer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Summer Spectacle",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Summer%20Spectacle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Prince Carriage",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Prince%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Princess Carriage",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Princess%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Carriage",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Cream Truck",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Cream%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lavender Teapot Carriage",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Lavender%20Teapot%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Royal Crown Carriage",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Royal%20Crown%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rose Petal Carriage",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Rose%20Petal%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Douglas",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Douglas.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tiffany",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Tiffany.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Axel",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Axel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hoverboard",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Hoverboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Santa's Sleigh",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Santa's%20Sleigh.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Festive Deliveries Sleigh",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Festive%20Deliveries%20Sleigh.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gingerbread Sleigh",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Gingerbread%20Sleigh.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Toy Rescue Helicopter",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Toy%20Rescue%20Helicopter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gyrocopter",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Gyrocopter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shadow Rider",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Shadow%20Rider.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Headless Horseman's Biplane",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Headless%20Horseman's%20Biplane.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Emperor's Chariot",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Emperor's%20Chariot.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Egg Delivery Machine",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Egg%20Delivery%20Machine.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Firework Cycle",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Firework%20Cycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Plane",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Plane.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snowmobile",
+    "base_value": 0.85,
+    "image_url": "https://elvebredd.com/images/pets/Snowmobile.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Choo Choo Train",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Choo%20Choo%20Train.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Traveling House",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Traveling%20House.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ribcage Carriage",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Ribcage%20Carriage.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Street Drifter",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Street%20Drifter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Regal Roller",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Regal%20Roller.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cupid's Coupe",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Cupid's%20Coupe.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Magical Girl Car",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Magical%20Girl%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wing Trunk car",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Wing%20Trunk%20car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bubble Car",
+    "base_value": 0.75,
+    "image_url": "https://elvebredd.com/images/pets/Bubble%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Crabby Cruiser",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Crabby%20Cruiser.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Prehistoric Car",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Prehistoric%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "DIno Truck",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/DIno%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Yellow Taxi Cab",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Yellow%20Taxi%20Cab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Cab",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Cab.png",
+    "category": "Pet"
+  },
+  {
+    "name": "SUV",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/SUV.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hovercar",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Hovercar.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dragonster",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Dragonster.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dino Truck",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Dino%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Banana Car",
+    "base_value": 0.55,
+    "image_url": "https://elvebredd.com/images/pets/Banana%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Witch's Caravan",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Witch's%20Caravan.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Paint Roller Truck",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Paint%20Roller%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Motorized Sofa",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Motorized%20Sofa.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bee Shuttle",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Bee%20Shuttle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Imagination Box",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Imagination%20Box.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Squirrel Car",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Squirrel%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Celestial Carrier",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Celestial%20Carrier.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dolphin Cruiser",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Dolphin%20Cruiser.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wizard Caravan",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Wizard%20Caravan.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dapper Friend Carrier",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Dapper%20Friend%20Carrier.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ghost Vehicle",
+    "base_value": 33,
+    "image_url": "https://elvebredd.com/images/pets/Ghost%20Vehicle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Super Jetpack",
+    "base_value": 28,
+    "image_url": "https://elvebredd.com/images/pets/Super%20Jetpack.png",
+    "category": "Pet"
+  },
+  {
+    "name": "GoKart",
+    "base_value": 8,
+    "image_url": "https://elvebredd.com/images/pets/GoKart.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Shooting Star Board",
+    "base_value": 3.5,
+    "image_url": "https://elvebredd.com/images/pets/Shooting%20Star%20Board.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Enchanted Broomstick",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Enchanted%20Broomstick.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Flying Cloud",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Flying%20Cloud.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snowblower Toboggan",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Snowblower%20Toboggan.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Festive Deliveries Present Truck",
+    "base_value": 1,
+    "image_url": "https://elvebredd.com/images/pets/Festive%20Deliveries%20Present%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Daisymobile",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Daisymobile.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Husky Sled",
+    "base_value": 0.7,
+    "image_url": "https://elvebredd.com/images/pets/Husky%20Sled.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Queen Sleigh",
+    "base_value": 0.65,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Queen%20Sleigh.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Flower Wagon",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Flower%20Wagon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Unicorn Zombie Ponycycle",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Unicorn%20Zombie%20Ponycycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tundra Exploration Machine",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Tundra%20Exploration%20Machine.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Galleon",
+    "base_value": 0.5,
+    "image_url": "https://elvebredd.com/images/pets/Galleon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Giant Snowball",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Giant%20Snowball.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Heart Hoverboard",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Heart%20Hoverboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Unstable Triangle Car",
+    "base_value": 0.45,
+    "image_url": "https://elvebredd.com/images/pets/Unstable%20Triangle%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snow Plow",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Snow%20Plow.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Toxic Barrel",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Toxic%20Barrel.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hot Rod Sleigh",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Hot%20Rod%20Sleigh.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tractor",
+    "base_value": 0.35,
+    "image_url": "https://elvebredd.com/images/pets/Tractor.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Beach Buggy",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Beach%20Buggy.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Planetary Core Car",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Planetary%20Core%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Powerbike",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Powerbike.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Clown car",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Clown%20car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Harvest Truck",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Harvest%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Landsailer",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Landsailer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Personal Cannon Launcher",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Personal%20Cannon%20Launcher.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bumper Car",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Bumper%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Donut Unicycle",
+    "base_value": 0.25,
+    "image_url": "https://elvebredd.com/images/pets/Donut%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cookie Unicycle",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Cookie%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Orchid Racer",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Orchid%20Racer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rocket Racer",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Rocket%20Racer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snow Globetrotter",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Snow%20Globetrotter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Charon's Boat",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Charon's%20Boat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Trireme",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Trireme.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Limo",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Limo.png",
+    "category": "Pet"
+  },
+  {
+    "name": "RGB UFO",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/RGB%20UFO.png",
+    "category": "Pet"
+  },
+  {
+    "name": "RGB Monster Truck",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/RGB%20Monster%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Zamboni",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Zamboni.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hot Air Balloon",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Hot%20Air%20Balloon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Spinning Teacup Vehicle",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Spinning%20Teacup%20Vehicle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Lunar Muscle Car",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Lunar%20Muscle%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Hovercraft",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Hovercraft.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Muscle Car",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Muscle%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Plant Powered Roller Skates",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Plant%20Powered%20Roller%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Robo Unicycle",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Robo%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sunshine Chariot",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Sunshine%20Chariot.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Classic American Car",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Classic%20American%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ancient Unicycle",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Ancient%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Camping Van",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Camping%20Van.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Winged Skates",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Winged%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Candy Camper",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Candy%20Camper.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Modern Unicycle",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Modern%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Magical Princess Unicycle",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Magical%20Princess%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Dirt Bike Unicycle",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Dirt%20Bike%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Black Skateboard",
+    "base_value": 4.5,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Black%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon White Skateboard",
+    "base_value": 3.75,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20White%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Red Skateboard",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Red%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Blue Skateboard",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Blue%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Green Skateboard",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Green%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Pink Skateboard",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Pink%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Orange Skateboard",
+    "base_value": 3.25,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Orange%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon White Scooter",
+    "base_value": 3,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20White%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Red Scooter",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Red%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Blue Scooter",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Blue%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Pink Scooter",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Pink%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Green Scooter",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Green%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Orange Scooter",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Orange%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rabbit Helicopter",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Rabbit%20Helicopter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Festive Wagon",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Festive%20Wagon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fossil Paw Helicopter",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Fossil%20Paw%20Helicopter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Chairlift",
+    "base_value": 0.6,
+    "image_url": "https://elvebredd.com/images/pets/Chairlift.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Racing Monoplane",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Racing%20Monoplane.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Candy Snowmobile",
+    "base_value": 0.4,
+    "image_url": "https://elvebredd.com/images/pets/Candy%20Snowmobile.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Corsair Cruiser",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Corsair%20Cruiser.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Beachgoer",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Beachgoer.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Speedboat",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Speedboat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Galactic Hoverboard",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Galactic%20Hoverboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Daisy Unicycle",
+    "base_value": 0.2,
+    "image_url": "https://elvebredd.com/images/pets/Daisy%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Waffle Wagon",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Waffle%20Wagon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Futuristic Unicycle",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Futuristic%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gingerbread Stunt Plane",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Gingerbread%20Stunt%20Plane.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rift Rider",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Rift%20Rider.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Festive Ice Skates",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Festive%20Ice%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Throwing Knife Target",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Throwing%20Knife%20Target.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pizza Unicycle",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Pizza%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sled",
+    "base_value": 0.1,
+    "image_url": "https://elvebredd.com/images/pets/Sled.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Convertible",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Convertible.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Off-Road Car",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Off-Road%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Camper Van",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Camper%20Van.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Old Sailboat",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Old%20Sailboat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Medieval Wagon",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Medieval%20Wagon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Soccer Car",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Soccer%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rocket Skates",
+    "base_value": 0.07,
+    "image_url": "https://elvebredd.com/images/pets/Rocket%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Butterfly Roller Skates",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Butterfly%20Roller%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Strawberry Shortcake Skates",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Strawberry%20Shortcake%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Moped",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Moped.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Party Surfboard",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Party%20Surfboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Surfboard",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Surfboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Offroader",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Offroader.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Human Bubble",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Human%20Bubble.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Rider",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Rider.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bethink Skateboard",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Bethink%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fissy Skateboard",
+    "base_value": 2.75,
+    "image_url": "https://elvebredd.com/images/pets/Fissy%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Doge Skateboard",
+    "base_value": 2.5,
+    "image_url": "https://elvebredd.com/images/pets/Doge%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Fidget Skateboard",
+    "base_value": 2.5,
+    "image_url": "https://elvebredd.com/images/pets/Fidget%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Adopt Me Girl Scooter",
+    "base_value": 2.1,
+    "image_url": "https://elvebredd.com/images/pets/Adopt%20Me%20Girl%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Adopt Me Boy Scooter",
+    "base_value": 2.1,
+    "image_url": "https://elvebredd.com/images/pets/Adopt%20Me%20Boy%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Cupcake Scooter",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Cupcake%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Doge Scooter",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Doge%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Duck Scooter",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Duck%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Emoji Scooter",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Emoji%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pirate Row Boat",
+    "base_value": 0.3,
+    "image_url": "https://elvebredd.com/images/pets/Pirate%20Row%20Boat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Icebreaker Ship",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Icebreaker%20Ship.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Water Scooter",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Water%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Clown Unicycle",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Clown%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Haunted Wagon",
+    "base_value": 0.14,
+    "image_url": "https://elvebredd.com/images/pets/Haunted%20Wagon.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Festive Wreath Cruiser",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Festive%20Wreath%20Cruiser.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Strawberry Shortcake Unicycle",
+    "base_value": 0.12,
+    "image_url": "https://elvebredd.com/images/pets/Strawberry%20Shortcake%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Toy Delivery Truck",
+    "base_value": 0.11,
+    "image_url": "https://elvebredd.com/images/pets/Toy%20Delivery%20Truck.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Open Top Speeder",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Open%20Top%20Speeder.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Trusty Sled",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Trusty%20Sled.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Car",
+    "base_value": 0.06,
+    "image_url": "https://elvebredd.com/images/pets/Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Circus Ball Unicycle",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Circus%20Ball%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Rainbow Trail Magic Carpet",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Rainbow%20Trail%20Magic%20Carpet.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tiny Convertible",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Tiny%20Convertible.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Family Car",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Family%20Car.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bat Face Roller Skates",
+    "base_value": 0.05,
+    "image_url": "https://elvebredd.com/images/pets/Bat%20Face%20Roller%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Sports Bike",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Sports%20Bike.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Starter Bike",
+    "base_value": 0.04,
+    "image_url": "https://elvebredd.com/images/pets/Starter%20Bike.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Circus Ball Skates",
+    "base_value": 0.03,
+    "image_url": "https://elvebredd.com/images/pets/Circus%20Ball%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Unicycle",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gold Skateboard",
+    "base_value": 2,
+    "image_url": "https://elvebredd.com/images/pets/Gold%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glass Skateboard",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Glass%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wood Skateboard",
+    "base_value": 1.75,
+    "image_url": "https://elvebredd.com/images/pets/Wood%20Skateboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gold Scooter",
+    "base_value": 1.35,
+    "image_url": "https://elvebredd.com/images/pets/Gold%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Scooter",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glass Scooter",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Glass%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Wood Scooter",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/Wood%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Black Scooter",
+    "base_value": 233,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Black%20Scooter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Classic Airplane",
+    "base_value": 0.15,
+    "image_url": "https://elvebredd.com/images/pets/Classic%20Airplane.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Classic Helicopter",
+    "base_value": 0.13,
+    "image_url": "https://elvebredd.com/images/pets/Classic%20Helicopter.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Classic Boat",
+    "base_value": 0.11,
+    "image_url": "https://elvebredd.com/images/pets/Classic%20Boat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Airboat",
+    "base_value": 0.11,
+    "image_url": "https://elvebredd.com/images/pets/Airboat.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Time Traveler's Clock",
+    "base_value": 0.08,
+    "image_url": "https://elvebredd.com/images/pets/Time%20Traveler's%20Clock.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Motorcycle",
+    "base_value": 0.02,
+    "image_url": "https://elvebredd.com/images/pets/Motorcycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Motorbike",
+    "base_value": 0.02,
+    "image_url": "https://elvebredd.com/images/pets/Motorbike.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Soapy Skates",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Soapy%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Neon Skates",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Neon%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Standard Roller Skates",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Standard%20Roller%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Roller Skates",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Roller%20Skates.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Tandem Bicycle",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Tandem%20Bicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Multi-Bike",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Multi-Bike.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Standard Unicycle",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Standard%20Unicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bicycle",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Bicycle.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Bike",
+    "base_value": 0.01,
+    "image_url": "https://elvebredd.com/images/pets/Bike.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Roblox Snowboard",
+    "base_value": 18,
+    "image_url": "https://elvebredd.com/images/pets/Roblox%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Snow Snowboard",
+    "base_value": 17,
+    "image_url": "https://elvebredd.com/images/pets/Snow%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Ice Snowboard",
+    "base_value": 16,
+    "image_url": "https://elvebredd.com/images/pets/Ice%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Gold Snowboard",
+    "base_value": 15,
+    "image_url": "https://elvebredd.com/images/pets/Gold%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "White Neon Snowboard",
+    "base_value": 12,
+    "image_url": "https://elvebredd.com/images/pets/White%20Neon%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Pink Neon Snowboard",
+    "base_value": 11,
+    "image_url": "https://elvebredd.com/images/pets/Pink%20Neon%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Neon Snowboard",
+    "base_value": 11,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Neon%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Green Neon Snowboard",
+    "base_value": 10,
+    "image_url": "https://elvebredd.com/images/pets/Green%20Neon%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Adopt Me Snowboard 1",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Adopt%20Me%20Snowboard%201.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Adopt Me Snowboard 2",
+    "base_value": 5,
+    "image_url": "https://elvebredd.com/images/pets/Adopt%20Me%20Snowboard%202.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Glass Snowboard",
+    "base_value": 3.5,
+    "image_url": "https://elvebredd.com/images/pets/Glass%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Orange Neon Snowboard",
+    "base_value": 3.5,
+    "image_url": "https://elvebredd.com/images/pets/Orange%20Neon%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "White Snowboard",
+    "base_value": 1.25,
+    "image_url": "https://elvebredd.com/images/pets/White%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Black Snowboard",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Black%20Snowboard.png",
+    "category": "Pet"
+  },
+  {
+    "name": "Blue Snowboard",
+    "base_value": 1.15,
+    "image_url": "https://elvebredd.com/images/pets/Blue%20Snowboard.png",
+    "category": "Pet"
+  }
+]

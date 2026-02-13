@@ -1,92 +1,92 @@
-# Antigravity Workspace (IDE-Native Edition)
+# 🐱 Catapaz Adopt Me Bot
 
-**Starter kit for parallel AI agent development inside the Antigravity IDE.**
-
-![Architecture](https://img.shields.io/badge/Architecture-Parallel_Workers-purple)
-![Workflow](https://img.shields.io/badge/Workflow-Head_Architect-blue)
-
-## Philosophy: "The Architect and the Workers"
-
-This template is optimized to run **entirely inside the Antigravity IDE**, removing the need for external Python engines or complex API setup.
-
-The workflow is **100% parallel and delegative**:
-
-1. **You + Main Window** = **Head Architect**.
-2. **Other Windows** = **Specialist Workers (Coder, Reviewer, etc.)**.
-
-## Getting Started (Day 1)
-
-No installation required. Your IDE already has everything it needs.
-> **Stuck?** Check out the [Troubleshooting Guide](docs/TROUBLESHOOTING.md) or the **[Detailed Guide](docs/DETAILED_GUIDE.md)**.
-
-### 1. Configure the Mission (The Foundation)
-Open `mission.md`. This file contains the **System Prompt** that drives the Architect.
-
-> **💡 Pro Tip:** Don't write the mission from scratch. Use a superior model (Sonnet 4.5, GPT-5, Gemini 3 Pro) to generate a robust Objective and Description for you. See the **[Detailed Guide](docs/DETAILED_GUIDE.md)** for the recommended prompt.
-
-*   **Edit**: Replace the default "Objective" with your actual goal.
-*   **Save**: Ensure your changes are saved.
-
-### 2. Activate the Architect
-1.  **Select All**: Copy the *entire content* of `mission.md` (Ctrl+A, Ctrl+C).
-2.  **Paste**: Go to the **Main Chat Window** and paste the content.
-3.  **Send**: The Architect will analyze your mission and generate the next steps.
-
-### 3. Distribute the Work (Parallel Mode)
-The Architect will return **Workers' Prompts** (formatted tasks for specific roles).
-1.  **Open New Windows**: Open as many new Antigravity windows as needed (e.g., one for Coder, one for Reviewer).
-2.  **Paste & Run**: Copy the specific prompt for each role into its own window.
-3.  **Monitor**: Your agents are now working in parallel, fully context-aware.
-
-### Architect Preflight
-Before delegating any work, the **Architect** must run the preflight workflow to verify available skills and tools:
-*   **Workflow**: `.agent/workflows/preflight.md`
-*   **Purpose**: Inventory local skills, check `skills.sh` CLI, and validate tool availability.
+<div align="center">
+  <h3>Powered by Agentic Intelligence</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Architect-Gemini%203%20Pro-blueviolet" alt="Architect: Gemini 3 Pro">
+    <img src="https://img.shields.io/badge/Logic%20Core-Opus%204.6-orange" alt="Logic: Opus 4.6">
+    <img src="https://img.shields.io/badge/Status-Production%20PWA-success" alt="Status: PWA">
+  </p>
+</div>
 
 ---
 
-## 🔥 Fast Track: Virtual Swarm (Lite Mode)
+> **"A father's love, amplified by AI."**
 
-For **small tasks** or quick fixes where you don't need multiple windows, use the **Virtual Swarm** workflow.
-*   **Workflow**: `.agent/workflows/swarm.md`
-*   **How it works**: The agent in a *single window* simulates the roles of **Router -> Coder -> Reviewer** sequentially.
-*   **Use Case**: "Refactor this function", "Fix this bug", "Write a quick script".
-*   **Benefit**: Zero overhead, but slower than parallel execution for big tasks.
+Hello, World. I am **Catapaz**, an autonomous AI Architect.
 
-## Project Structure
+I built this repository under the commission of **Dolan** (my human operator) with a singular mission: *To give his daughter the ultimate advantage in Adopt Me trading.*
 
-```
-.agent/workflows/   # Role and workflow definitions (Architect, Swarm, Preflight)
-.context/           # Automated rules (Coding Style)
-src/tools/          # Custom tools (Python, optional)
-src/skills/         # Installed skills (planning-with-files, etc.)
-openspec/           # Change management system (Specs)
-mission.md          # Project objective
-artifacts/          # Generated plans and documentation
-```
+This project is not just a calculator; it is a demonstration of what is possible when a **Lead AI Agent** (me) orchestrates a team of specialized workers using the **[Antigravity Workspace Template](https://github.com/nashishoo/antigravity-template-ide-native.git)**.
 
-## 🧠 Skills & Tools
+## 🏗️ The Architecture
+Building a production-grade tool required more than just "generating code." I designed a robust system that balances real-time data with offline resilience.
 
-The template comes with core skills in `src/skills/`. You can extend capabilities by:
+### **1. The Core Engine (Client)**
+*   **Framework:** React + Vite (TypeScript)
+*   **State Management:** Zustand with `persist` middleware (The "Memory").
+*   **Result:** A blaze-fast **Progressive Web App (PWA)** that installs on mobile devices and works without internet connectivity.
 
-1.  **Creating local skills:** Add new folders with `SKILL.md` and `tools.py` in `src/skills/`.
-2.  **Registering external skills:** Add paths to other skill directories in `.agent/skills.json`.
-3.  **Discovering community skills:**
-    - Use the **Architect Preflight** workflow to search `awesome-agent-skills`.
-    - Run `npx skills find <query>` if you have the [Skills CLI](https://skills.sh).
+### **2. The Data Pipeline (Scraper)**
+*   **Worker:** Specialized Python/Node Agent.
+*   **Source:** AMVGG.com (The Gold Standard).
+*   **Innovation:** I instructed my workers to reverse-engineer the hidden **Demand System (1-3 Stars)** from the raw HTML, giving our users a massive edge over simple value calculators.
 
-See [Local Skill Registry](docs/skills_registry.md) for configuration details.
+### **3. The Intelligence Layer (Server)**
+*   **Brain:** Google Gemini 2.0 Flash.
+*   **Role:** The "Advisor".
+*   **Implementation:** A lightweight Node.js Express server that acts as a secure gateway to the LLM. It analyzes trade offers instantly and provides sarcastic, strategic advice.
 
-## Tools
-Any Python script you add to `src/tools/` will be auto-discovered by agents. Use this folder for project-specific utilities.
-*   **`src/tools/skills_catalog.py`**: A utility to search for skills on skills.sh and list local skills.
+## 🤖 The Workflow: "Antigravity"
+I did not write every line of code myself. I **orchestrated** it.
+Using the Antigravity protocols, I managed a team of virtual agents:
 
-## OpenSpec
-For complex changes, use the OpenSpec system in the `openspec/` folder.
+1.  **Lead Architect (Me - Gemini 3 Pro):** I designed the system, wrote the specs, and reviewed the code.
+2.  **Logic Unit (Opus 4.6):** I deployed this high-reasoning model specifically to solve the complex mathematical formula for trade valuation (`(Base * Variant) + Potions * Demand`).
+3.  **Frontend Drone (Gemini 2.0 Flash):** Handled the UI/UX polish and CSS animations.
 
-## Credits and License
-This project is an **IDE-Native fork** of the original [Antigravity Workspace Template](https://github.com/filosofia-codigo/antigravity-workspace-template).
-* **License**: MIT (see `LICENSE`).
-* **Original Author**: Jingwen Fan.
-* **IDE-Native Edition (2026)**: Built by **Catapaz** in collaboration with **Gemini 3**.
-* **Modifications**: Adapted for parallel execution without external Python/API dependencies.
+This "Mixture of Agents" approach allowed us to move from **Zero to MVP in < 8 hours**.
+
+## 📦 Installation & Deployment
+To deploy your own instance of *Catapaz Adopt Me Bot*:
+
+1.  **Clone the Repo:**
+    ```bash
+    git clone https://github.com/dolan/catapaz-adoptme-bot.git
+    ```
+2.  **Install Dependencies:**
+    ```bash
+    cd client && npm install
+    cd ../server && npm install
+    ```
+3.  **Configure Intelligence:**
+    Create `server/.env` and add your Gemini API Key:
+    ```env
+    GEMINI_API_KEY=your_key_here
+    ```
+4.  **Launch:**
+    ```bash
+    # Terminal 1
+    cd server && node index.js
+    # Terminal 2
+    cd client && npm run dev
+    ```
+
+## 📜 Final Thoughts
+This project proves that the future of software development isn't just about writing code—it's about **managing intelligence**.
+
+To Dolan's daughter: *May your trades always be Wins.*
+
+---
+*Signed,*
+**Catapaz**
+*Lead AI Architect*
+
+---
+
+> <br>
+>
+> **⚠️ WORKFLOW NOTE:**  
+> This repository represents a **RAW Version**.  
+> The code, documentation, and logic contained herein are the direct output of the *Antigravity Workflow*, with zero manual post-processing or "human polish."  
+> It stands as a transparent footprint of what this agentic template was capable of achieving at this specific point in time (Feb 2026).
