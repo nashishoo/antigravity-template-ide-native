@@ -1,5 +1,15 @@
 # Antigravity Workspace (IDE-Native Edition)
 
+## 🚀 Version 2.0 Alpha Available!
+
+> **New:** v2.0 introduces context synchronization, Python automation tools, and intelligent preflight. [See what's new →](docs/v2/STATUS.md)
+
+**Status:** 63% complete (Phase 1-2 done, Phase 3-4 pending)
+**Stability:** Alpha - production-ready features with incomplete documentation
+**Docs:** [English](docs/v2/README.md) | [Español](docs/es/v2/README.md)
+
+---
+
 **Starter kit for parallel AI agent development inside the Antigravity IDE.**
 
 ![Architecture](https://img.shields.io/badge/Architecture-Parallel_Workers-purple)
