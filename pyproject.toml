@@ -1,0 +1,15 @@
+[project]
+name = "antigravity-template"
+version = "2.0.0"
+description = "IDE-native template for parallel AI agent workflows"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pydantic>=2.0"]
+full = ["pyyaml>=6.0", "jinja2>=3.0", "watchdog>=3.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
